@@ -35,11 +35,7 @@ version mobile/
 ### 1. Configuration de la Base de Données
 
 1. **Installer XAMPP** et démarrer MySQL
-2. **Créer la base de données** :
-   ```sql
-   CREATE DATABASE safar_morocco_mobile;
-   ```
-3. **Configurer la connexion** dans `application.properties` :
+2. Configurer la connexion** dans `application.properties` :
    ```properties
    spring.datasource.url=jdbc:mysql://127.0.0.1:3306/safar_morocco_mobile?createDatabaseIfNotExist=true&useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC
    spring.datasource.username=root
