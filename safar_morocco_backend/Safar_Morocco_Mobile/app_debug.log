@@ -1,0 +1,3240 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -------------------< ma.safar.morocco:Safar_Morocco >-------------------
+[INFO] Building Safar_Morocco 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> spring-boot:4.0.1:run (default-cli) > test-compile @ Safar_Morocco >>>
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ Safar_Morocco ---
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[INFO] Copying 10 resources from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.14.1:compile (default-compile) @ Safar_Morocco ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ Safar_Morocco ---
+[INFO] skip non existing resourceDirectory D:\Safar_Morocco\Safar_Morocco\src\test\resources
+[INFO] 
+[INFO] --- compiler:3.14.1:testCompile (default-testCompile) @ Safar_Morocco ---
+[INFO] Recompiling the module because of changed source code.
+[INFO] Compiling 1 source file with javac [debug parameters release 17] to target\test-classes
+[INFO] 
+[INFO] <<< spring-boot:4.0.1:run (default-cli) < test-compile @ Safar_Morocco <<<
+[INFO] 
+[INFO] 
+[INFO] --- spring-boot:4.0.1:run (default-cli) @ Safar_Morocco ---
+[INFO] Attaching agents: []
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v4.0.1)
+
+2026-01-15T01:04:45.077+01:00  INFO 20576 --- [Safar_Morocco] [  restartedMain] m.safar.morocco.SafarMoroccoApplication  : Starting SafarMoroccoApplication using Java 17.0.12 with PID 20576 (D:\Safar_Morocco\Safar_Morocco\target\classes started by AS in D:\Safar_Morocco\Safar_Morocco)
+2026-01-15T01:04:45.089+01:00  INFO 20576 --- [Safar_Morocco] [  restartedMain] m.safar.morocco.SafarMoroccoApplication  : No active profile set, falling back to 1 default profile: "default"
+2026-01-15T01:04:45.244+01:00  INFO 20576 --- [Safar_Morocco] [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-01-15T01:04:45.278+01:00  INFO 20576 --- [Safar_Morocco] [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-01-15T01:04:46.922+01:00  INFO 20576 --- [Safar_Morocco] [  restartedMain] o.s.b.f.s.DefaultListableBeanFactory     : Overriding bean definition for bean 'jpaAuditingHandler' with a different definition: replacing [Root bean: class=org.springframework.data.auditing.AuditingHandler; scope=; abstract=false; lazyInit=null; autowireMode=2; dependencyCheck=0; autowireCandidate=true; primary=false; fallback=false; factoryBeanName=null; factoryMethodName=from; initMethodNames=null; destroyMethodNames=null] with [Root bean: class=org.springframework.data.auditing.AuditingHandler; scope=; abstract=false; lazyInit=null; autowireMode=2; dependencyCheck=0; autowireCandidate=true; primary=false; fallback=false; factoryBeanName=null; factoryMethodName=from; initMethodNames=null; destroyMethodNames=null]
+2026-01-15T01:04:46.922+01:00  INFO 20576 --- [Safar_Morocco] [  restartedMain] o.s.b.f.s.DefaultListableBeanFactory     : Overriding bean definition for bean 'org.springframework.data.jpa.domain.support.AuditingEntityListener' with an equivalent definition: replacing [Root bean: class=org.springframework.data.jpa.domain.support.AuditingEntityListener; scope=; abstract=false; lazyInit=null; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; fallback=false; factoryBeanName=null; factoryMethodName=null; initMethodNames=null; destroyMethodNames=null] with [Root bean: class=org.springframework.data.jpa.domain.support.AuditingEntityListener; scope=; abstract=false; lazyInit=null; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; fallback=false; factoryBeanName=null; factoryMethodName=null; initMethodNames=null; destroyMethodNames=null]
+2026-01-15T01:04:46.922+01:00  INFO 20576 --- [Safar_Morocco] [  restartedMain] o.s.b.f.s.DefaultListableBeanFactory     : Overriding bean definition for bean 'org.springframework.data.jpa.domain.support.AuditingBeanFactoryPostProcessor' with an equivalent definition: replacing [Root bean: class=org.springframework.data.jpa.domain.support.AuditingBeanFactoryPostProcessor; scope=; abstract=false; lazyInit=null; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; fallback=false; factoryBeanName=null; factoryMethodName=null; initMethodNames=null; destroyMethodNames=null] with [Root bean: class=org.springframework.data.jpa.domain.support.AuditingBeanFactoryPostProcessor; scope=; abstract=false; lazyInit=null; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; fallback=false; factoryBeanName=null; factoryMethodName=null; initMethodNames=null; destroyMethodNames=null]
+2026-01-15T01:04:47.776+01:00  INFO 20576 --- [Safar_Morocco] [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-01-15T01:04:48.128+01:00  INFO 20576 --- [Safar_Morocco] [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 287 ms. Found 9 JPA repository interfaces.
+2026-01-15T01:04:50.454+01:00  INFO 20576 --- [Safar_Morocco] [  restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 9004 (http)
+2026-01-15T01:04:50.520+01:00  INFO 20576 --- [Safar_Morocco] [  restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-01-15T01:04:50.522+01:00  INFO 20576 --- [Safar_Morocco] [  restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-01-15T01:04:50.668+01:00  INFO 20576 --- [Safar_Morocco] [  restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 5386 ms
+2026-01-15T01:04:50.952+01:00  INFO 20576 --- [Safar_Morocco] [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-01-15T01:04:51.575+01:00  INFO 20576 --- [Safar_Morocco] [  restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1a567eb
+2026-01-15T01:04:51.579+01:00  INFO 20576 --- [Safar_Morocco] [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-01-15T01:04:51.865+01:00  INFO 20576 --- [Safar_Morocco] [  restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-01-15T01:04:52.030+01:00  INFO 20576 --- [Safar_Morocco] [  restartedMain] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.0.Final
+2026-01-15T01:04:53.676+01:00  INFO 20576 --- [Safar_Morocco] [  restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-01-15T01:04:54.001+01:00  WARN 20576 --- [Safar_Morocco] [  restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-01-15T01:04:54.057+01:00  INFO 20576 --- [Safar_Morocco] [  restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/safar_morocco?createDatabaseIfNotExist=true&useSSL=false&serverTimezone=UTC]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.44
+	Default catalog/schema: safar_morocco/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-01-15T01:04:58.550+01:00  INFO 20576 --- [Safar_Morocco] [  restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-01-15T01:04:58.846+01:00 DEBUG 20576 --- [Safar_Morocco] [  restartedMain] org.hibernate.SQL                        : 
+    alter table audit_logs 
+       modify column status enum ('ERROR','FAILURE','SUCCESS') not null
+Hibernate: 
+    alter table audit_logs 
+       modify column status enum ('ERROR','FAILURE','SUCCESS') not null
+2026-01-15T01:04:58.932+01:00 DEBUG 20576 --- [Safar_Morocco] [  restartedMain] org.hibernate.SQL                        : 
+    alter table utilisateurs 
+       modify column role enum ('ADMIN','MODERATOR','USER') not null
+Hibernate: 
+    alter table utilisateurs 
+       modify column role enum ('ADMIN','MODERATOR','USER') not null
+2026-01-15T01:04:59.234+01:00  INFO 20576 --- [Safar_Morocco] [  restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-01-15T01:04:59.516+01:00  INFO 20576 --- [Safar_Morocco] [  restartedMain] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-01-15T01:05:02.954+01:00  INFO 20576 --- [Safar_Morocco] [  restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2026-01-15T01:05:03.382+01:00  INFO 20576 --- [Safar_Morocco] [  restartedMain] ma.safar.morocco.config.AsyncConfig      : Async TaskExecutor configured: corePoolSize=2, maxPoolSize=5
+2026-01-15T01:05:04.628+01:00  WARN 20576 --- [Safar_Morocco] [  restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-01-15T01:05:05.436+01:00 DEBUG 20576 --- [Safar_Morocco] [  restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, CorsFilter, LogoutFilter, OAuth2AuthorizationRequestRedirectFilter, OAuth2LoginAuthenticationFilter, JwtAuthenticationFilter, DefaultResourcesFilter, DefaultLoginPageGeneratingFilter, DefaultLogoutPageGeneratingFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, SessionManagementFilter, ExceptionTranslationFilter, AuthorizationFilter
+2026-01-15T01:05:05.662+01:00  INFO 20576 --- [Safar_Morocco] [  restartedMain] o.s.b.w.a.WelcomePageHandlerMapping      : Adding welcome page template: index
+2026-01-15T01:05:06.911+01:00  INFO 20576 --- [Safar_Morocco] [  restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 9004 (http) with context path '/'
+2026-01-15T01:05:06.938+01:00  INFO 20576 --- [Safar_Morocco] [  restartedMain] m.safar.morocco.SafarMoroccoApplication  : Started SafarMoroccoApplication in 23.472 seconds (process running for 25.172)
+2026-01-15T01:05:06.950+01:00  INFO 20576 --- [Safar_Morocco] [  restartedMain] m.safar.morocco.config.DataInitializer   : Initializing default users...
+2026-01-15T01:05:07.316+01:00 DEBUG 20576 --- [Safar_Morocco] [  restartedMain] org.hibernate.SQL                        : 
+    /* SELECT
+        u 
+    FROM
+        Utilisateur u 
+    WHERE
+        u.email = :email */ select
+            u1_0.id,
+            u1_0.actif,
+            u1_0.compte_bloquer,
+            u1_0.date_inscription,
+            u1_0.date_modification,
+            u1_0.description,
+            u1_0.email,
+            u1_0.langue,
+            u1_0.mot_de_passe_hache,
+            u1_0.nom,
+            u1_0.photo_url,
+            u1_0.preferences,
+            u1_0.provider,
+            u1_0.provider_id,
+            u1_0.role,
+            u1_0.telephone 
+        from
+            utilisateurs u1_0 
+        where
+            u1_0.email=?
+Hibernate: 
+    /* SELECT
+        u 
+    FROM
+        Utilisateur u 
+    WHERE
+        u.email = :email */ select
+            u1_0.id,
+            u1_0.actif,
+            u1_0.compte_bloquer,
+            u1_0.date_inscription,
+            u1_0.date_modification,
+            u1_0.description,
+            u1_0.email,
+            u1_0.langue,
+            u1_0.mot_de_passe_hache,
+            u1_0.nom,
+            u1_0.photo_url,
+            u1_0.preferences,
+            u1_0.provider,
+            u1_0.provider_id,
+            u1_0.role,
+            u1_0.telephone 
+        from
+            utilisateurs u1_0 
+        where
+            u1_0.email=?
+2026-01-15T01:05:07.435+01:00 DEBUG 20576 --- [Safar_Morocco] [  restartedMain] org.hibernate.SQL                        : 
+    /* SELECT
+        t 
+    FROM
+        TwoFactorAuth t 
+    WHERE
+        t.utilisateur = :utilisateur */ select
+            tfa1_0.id,
+            tfa1_0.backup_codes,
+            tfa1_0.confirmed,
+            tfa1_0.created_at,
+            tfa1_0.enabled,
+            tfa1_0.failed_attempts,
+            tfa1_0.last_used_at,
+            tfa1_0.locked,
+            tfa1_0.qr_code_url,
+            tfa1_0.secret_key,
+            tfa1_0.utilisateur_id 
+        from
+            two_factor_auth tfa1_0 
+        where
+            tfa1_0.utilisateur_id=?
+Hibernate: 
+    /* SELECT
+        t 
+    FROM
+        TwoFactorAuth t 
+    WHERE
+        t.utilisateur = :utilisateur */ select
+            tfa1_0.id,
+            tfa1_0.backup_codes,
+            tfa1_0.confirmed,
+            tfa1_0.created_at,
+            tfa1_0.enabled,
+            tfa1_0.failed_attempts,
+            tfa1_0.last_used_at,
+            tfa1_0.locked,
+            tfa1_0.qr_code_url,
+            tfa1_0.secret_key,
+            tfa1_0.utilisateur_id 
+        from
+            two_factor_auth tfa1_0 
+        where
+            tfa1_0.utilisateur_id=?
+2026-01-15T01:05:07.499+01:00 DEBUG 20576 --- [Safar_Morocco] [  restartedMain] org.hibernate.SQL                        : 
+    select
+        u1_0.id,
+        u1_0.actif,
+        u1_0.compte_bloquer,
+        u1_0.date_inscription,
+        u1_0.date_modification,
+        u1_0.description,
+        u1_0.email,
+        u1_0.langue,
+        u1_0.mot_de_passe_hache,
+        u1_0.nom,
+        u1_0.photo_url,
+        u1_0.preferences,
+        u1_0.provider,
+        u1_0.provider_id,
+        u1_0.role,
+        u1_0.telephone 
+    from
+        utilisateurs u1_0 
+    where
+        u1_0.id=?
+Hibernate: 
+    select
+        u1_0.id,
+        u1_0.actif,
+        u1_0.compte_bloquer,
+        u1_0.date_inscription,
+        u1_0.date_modification,
+        u1_0.description,
+        u1_0.email,
+        u1_0.langue,
+        u1_0.mot_de_passe_hache,
+        u1_0.nom,
+        u1_0.photo_url,
+        u1_0.preferences,
+        u1_0.provider,
+        u1_0.provider_id,
+        u1_0.role,
+        u1_0.telephone 
+    from
+        utilisateurs u1_0 
+    where
+        u1_0.id=?
+2026-01-15T01:05:07.521+01:00 DEBUG 20576 --- [Safar_Morocco] [  restartedMain] org.hibernate.SQL                        : 
+    select
+        a1_0.utilisateur_id,
+        a1_0.id,
+        a1_0.commentaire,
+        a1_0.date_publication,
+        a1_0.destination_id,
+        a1_0.note 
+    from
+        avis a1_0 
+    where
+        a1_0.utilisateur_id=?
+Hibernate: 
+    select
+        a1_0.utilisateur_id,
+        a1_0.id,
+        a1_0.commentaire,
+        a1_0.date_publication,
+        a1_0.destination_id,
+        a1_0.note 
+    from
+        avis a1_0 
+    where
+        a1_0.utilisateur_id=?
+2026-01-15T01:05:07.534+01:00 DEBUG 20576 --- [Safar_Morocco] [  restartedMain] org.hibernate.SQL                        : 
+    select
+        i1_0.utilisateur_id,
+        i1_0.id,
+        i1_0.date_creation,
+        i1_0.duree_estimee,
+        i1_0.nom 
+    from
+        itineraires i1_0 
+    where
+        i1_0.utilisateur_id=?
+Hibernate: 
+    select
+        i1_0.utilisateur_id,
+        i1_0.id,
+        i1_0.date_creation,
+        i1_0.duree_estimee,
+        i1_0.nom 
+    from
+        itineraires i1_0 
+    where
+        i1_0.utilisateur_id=?
+2026-01-15T01:05:07.592+01:00 DEBUG 20576 --- [Safar_Morocco] [  restartedMain] org.hibernate.SQL                        : 
+    /* delete 
+    for
+        ma.safar.morocco.user.entity.Utilisateur */delete 
+    from
+        utilisateurs 
+    where
+        id=?
+Hibernate: 
+    /* delete 
+    for
+        ma.safar.morocco.user.entity.Utilisateur */delete 
+    from
+        utilisateurs 
+    where
+        id=?
+2026-01-15T01:05:07.619+01:00  INFO 20576 --- [Safar_Morocco] [  restartedMain] m.safar.morocco.config.DataInitializer   : Existing admin user deleted for recreation: admin@safar-morocco.com
+2026-01-15T01:05:07.855+01:00 DEBUG 20576 --- [Safar_Morocco] [  restartedMain] org.hibernate.SQL                        : 
+    /* insert 
+    for
+        ma.safar.morocco.user.entity.Utilisateur
+        */insert 
+    into
+        utilisateurs (actif, compte_bloquer, date_inscription, date_modification, description, email, langue, mot_de_passe_hache, nom, photo_url, preferences, provider, provider_id, role, telephone) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+Hibernate: 
+    /* insert 
+    for
+        ma.safar.morocco.user.entity.Utilisateur
+        */insert 
+    into
+        utilisateurs (actif, compte_bloquer, date_inscription, date_modification, description, email, langue, mot_de_passe_hache, nom, photo_url, preferences, provider, provider_id, role, telephone) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2026-01-15T01:05:07.967+01:00  INFO 20576 --- [Safar_Morocco] [  restartedMain] m.safar.morocco.config.DataInitializer   : Admin user created successfully: admin@safar-morocco.com
+2026-01-15T01:05:07.971+01:00 DEBUG 20576 --- [Safar_Morocco] [  restartedMain] org.hibernate.SQL                        : 
+    /* SELECT
+        u 
+    FROM
+        Utilisateur u 
+    WHERE
+        u.email = :email */ select
+            u1_0.id,
+            u1_0.actif,
+            u1_0.compte_bloquer,
+            u1_0.date_inscription,
+            u1_0.date_modification,
+            u1_0.description,
+            u1_0.email,
+            u1_0.langue,
+            u1_0.mot_de_passe_hache,
+            u1_0.nom,
+            u1_0.photo_url,
+            u1_0.preferences,
+            u1_0.provider,
+            u1_0.provider_id,
+            u1_0.role,
+            u1_0.telephone 
+        from
+            utilisateurs u1_0 
+        where
+            u1_0.email=?
+Hibernate: 
+    /* SELECT
+        u 
+    FROM
+        Utilisateur u 
+    WHERE
+        u.email = :email */ select
+            u1_0.id,
+            u1_0.actif,
+            u1_0.compte_bloquer,
+            u1_0.date_inscription,
+            u1_0.date_modification,
+            u1_0.description,
+            u1_0.email,
+            u1_0.langue,
+            u1_0.mot_de_passe_hache,
+            u1_0.nom,
+            u1_0.photo_url,
+            u1_0.preferences,
+            u1_0.provider,
+            u1_0.provider_id,
+            u1_0.role,
+            u1_0.telephone 
+        from
+            utilisateurs u1_0 
+        where
+            u1_0.email=?
+2026-01-15T01:05:07.977+01:00 DEBUG 20576 --- [Safar_Morocco] [  restartedMain] org.hibernate.SQL                        : 
+    /* SELECT
+        t 
+    FROM
+        TwoFactorAuth t 
+    WHERE
+        t.utilisateur = :utilisateur */ select
+            tfa1_0.id,
+            tfa1_0.backup_codes,
+            tfa1_0.confirmed,
+            tfa1_0.created_at,
+            tfa1_0.enabled,
+            tfa1_0.failed_attempts,
+            tfa1_0.last_used_at,
+            tfa1_0.locked,
+            tfa1_0.qr_code_url,
+            tfa1_0.secret_key,
+            tfa1_0.utilisateur_id 
+        from
+            two_factor_auth tfa1_0 
+        where
+            tfa1_0.utilisateur_id=?
+Hibernate: 
+    /* SELECT
+        t 
+    FROM
+        TwoFactorAuth t 
+    WHERE
+        t.utilisateur = :utilisateur */ select
+            tfa1_0.id,
+            tfa1_0.backup_codes,
+            tfa1_0.confirmed,
+            tfa1_0.created_at,
+            tfa1_0.enabled,
+            tfa1_0.failed_attempts,
+            tfa1_0.last_used_at,
+            tfa1_0.locked,
+            tfa1_0.qr_code_url,
+            tfa1_0.secret_key,
+            tfa1_0.utilisateur_id 
+        from
+            two_factor_auth tfa1_0 
+        where
+            tfa1_0.utilisateur_id=?
+2026-01-15T01:05:07.985+01:00 DEBUG 20576 --- [Safar_Morocco] [  restartedMain] org.hibernate.SQL                        : 
+    select
+        u1_0.id,
+        u1_0.actif,
+        u1_0.compte_bloquer,
+        u1_0.date_inscription,
+        u1_0.date_modification,
+        u1_0.description,
+        u1_0.email,
+        u1_0.langue,
+        u1_0.mot_de_passe_hache,
+        u1_0.nom,
+        u1_0.photo_url,
+        u1_0.preferences,
+        u1_0.provider,
+        u1_0.provider_id,
+        u1_0.role,
+        u1_0.telephone 
+    from
+        utilisateurs u1_0 
+    where
+        u1_0.id=?
+Hibernate: 
+    select
+        u1_0.id,
+        u1_0.actif,
+        u1_0.compte_bloquer,
+        u1_0.date_inscription,
+        u1_0.date_modification,
+        u1_0.description,
+        u1_0.email,
+        u1_0.langue,
+        u1_0.mot_de_passe_hache,
+        u1_0.nom,
+        u1_0.photo_url,
+        u1_0.preferences,
+        u1_0.provider,
+        u1_0.provider_id,
+        u1_0.role,
+        u1_0.telephone 
+    from
+        utilisateurs u1_0 
+    where
+        u1_0.id=?
+2026-01-15T01:05:07.991+01:00 DEBUG 20576 --- [Safar_Morocco] [  restartedMain] org.hibernate.SQL                        : 
+    select
+        a1_0.utilisateur_id,
+        a1_0.id,
+        a1_0.commentaire,
+        a1_0.date_publication,
+        a1_0.destination_id,
+        a1_0.note 
+    from
+        avis a1_0 
+    where
+        a1_0.utilisateur_id=?
+Hibernate: 
+    select
+        a1_0.utilisateur_id,
+        a1_0.id,
+        a1_0.commentaire,
+        a1_0.date_publication,
+        a1_0.destination_id,
+        a1_0.note 
+    from
+        avis a1_0 
+    where
+        a1_0.utilisateur_id=?
+2026-01-15T01:05:07.995+01:00 DEBUG 20576 --- [Safar_Morocco] [  restartedMain] org.hibernate.SQL                        : 
+    select
+        i1_0.utilisateur_id,
+        i1_0.id,
+        i1_0.date_creation,
+        i1_0.duree_estimee,
+        i1_0.nom 
+    from
+        itineraires i1_0 
+    where
+        i1_0.utilisateur_id=?
+Hibernate: 
+    select
+        i1_0.utilisateur_id,
+        i1_0.id,
+        i1_0.date_creation,
+        i1_0.duree_estimee,
+        i1_0.nom 
+    from
+        itineraires i1_0 
+    where
+        i1_0.utilisateur_id=?
+2026-01-15T01:05:07.999+01:00 DEBUG 20576 --- [Safar_Morocco] [  restartedMain] org.hibernate.SQL                        : 
+    /* delete 
+    for
+        ma.safar.morocco.user.entity.Utilisateur */delete 
+    from
+        utilisateurs 
+    where
+        id=?
+Hibernate: 
+    /* delete 
+    for
+        ma.safar.morocco.user.entity.Utilisateur */delete 
+    from
+        utilisateurs 
+    where
+        id=?
+2026-01-15T01:05:08.031+01:00  INFO 20576 --- [Safar_Morocco] [  restartedMain] m.safar.morocco.config.DataInitializer   : Existing default user deleted for recreation: user@safar-morocco.com
+2026-01-15T01:05:08.198+01:00 DEBUG 20576 --- [Safar_Morocco] [  restartedMain] org.hibernate.SQL                        : 
+    /* insert 
+    for
+        ma.safar.morocco.user.entity.Utilisateur
+        */insert 
+    into
+        utilisateurs (actif, compte_bloquer, date_inscription, date_modification, description, email, langue, mot_de_passe_hache, nom, photo_url, preferences, provider, provider_id, role, telephone) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+Hibernate: 
+    /* insert 
+    for
+        ma.safar.morocco.user.entity.Utilisateur
+        */insert 
+    into
+        utilisateurs (actif, compte_bloquer, date_inscription, date_modification, description, email, langue, mot_de_passe_hache, nom, photo_url, preferences, provider, provider_id, role, telephone) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2026-01-15T01:05:08.269+01:00  INFO 20576 --- [Safar_Morocco] [  restartedMain] m.safar.morocco.config.DataInitializer   : Default user created successfully: user@safar-morocco.com
+2026-01-15T01:05:08.270+01:00  INFO 20576 --- [Safar_Morocco] [  restartedMain] m.safar.morocco.config.DataInitializer   : Data initialization completed successfully
+2026-01-15T01:05:34.728+01:00  INFO 20576 --- [Safar_Morocco] [   File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 84 class path changes (0 additions, 83 deletions, 1 modification)
+2026-01-15T01:05:34.740+01:00  INFO 20576 --- [Safar_Morocco] [       Thread-1] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-01-15T01:05:36.044+01:00  INFO 20576 --- [Safar_Morocco] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-01-15T01:05:36.090+01:00  INFO 20576 --- [Safar_Morocco] [       Thread-1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-01-15T01:05:36.099+01:00  INFO 20576 --- [Safar_Morocco] [       Thread-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-01-15T01:05:36.141+01:00  INFO 20576 --- [Safar_Morocco] [       Thread-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v4.0.1)
+
+2026-01-15T01:05:36.430+01:00  INFO 20576 --- [Safar_Morocco] [  restartedMain] m.safar.morocco.SafarMoroccoApplication  : Starting SafarMoroccoApplication using Java 17.0.12 with PID 20576 (D:\Safar_Morocco\Safar_Morocco\target\classes started by AS in D:\Safar_Morocco\Safar_Morocco)
+2026-01-15T01:05:36.431+01:00  INFO 20576 --- [Safar_Morocco] [  restartedMain] m.safar.morocco.SafarMoroccoApplication  : No active profile set, falling back to 1 default profile: "default"
+2026-01-15T01:05:37.184+01:00  INFO 20576 --- [Safar_Morocco] [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-01-15T01:05:37.192+01:00  INFO 20576 --- [Safar_Morocco] [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1 ms. Found 0 JPA repository interfaces.
+2026-01-15T01:05:37.607+01:00  INFO 20576 --- [Safar_Morocco] [  restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 9004 (http)
+2026-01-15T01:05:37.645+01:00  INFO 20576 --- [Safar_Morocco] [  restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-01-15T01:05:37.646+01:00  INFO 20576 --- [Safar_Morocco] [  restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-01-15T01:05:37.757+01:00  INFO 20576 --- [Safar_Morocco] [  restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 1316 ms
+2026-01-15T01:05:37.838+01:00  INFO 20576 --- [Safar_Morocco] [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2026-01-15T01:05:37.874+01:00  INFO 20576 --- [Safar_Morocco] [  restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@75ad6c21
+2026-01-15T01:05:37.875+01:00  INFO 20576 --- [Safar_Morocco] [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2026-01-15T01:05:37.900+01:00  INFO 20576 --- [Safar_Morocco] [  restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-01-15T01:05:37.993+01:00  INFO 20576 --- [Safar_Morocco] [  restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-01-15T01:05:38.002+01:00  WARN 20576 --- [Safar_Morocco] [  restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-01-15T01:05:38.005+01:00  INFO 20576 --- [Safar_Morocco] [  restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/safar_morocco?createDatabaseIfNotExist=true&useSSL=false&serverTimezone=UTC]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.44
+	Default catalog/schema: safar_morocco/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-01-15T01:05:38.069+01:00  INFO 20576 --- [Safar_Morocco] [  restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-01-15T01:05:38.074+01:00  INFO 20576 --- [Safar_Morocco] [  restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-01-15T01:05:38.169+01:00  WARN 20576 --- [Safar_Morocco] [  restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-01-15T01:05:38.228+01:00  INFO 20576 --- [Safar_Morocco] [  restartedMain] o.s.b.w.a.WelcomePageHandlerMapping      : Adding welcome page template: index
+2026-01-15T01:05:38.522+01:00 DEBUG 20576 --- [Safar_Morocco] [  restartedMain] swordEncoderAuthenticationManagerBuilder : No authenticationProviders and no parentAuthenticationManager defined. Returning null.
+2026-01-15T01:05:38.705+01:00 DEBUG 20576 --- [Safar_Morocco] [  restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, CsrfFilter, LogoutFilter, OAuth2AuthorizationRequestRedirectFilter, OAuth2AuthorizationRequestRedirectFilter, OAuth2LoginAuthenticationFilter, DefaultResourcesFilter, DefaultLoginPageGeneratingFilter, DefaultLogoutPageGeneratingFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, OAuth2AuthorizationCodeGrantFilter, ExceptionTranslationFilter, AuthorizationFilter
+2026-01-15T01:05:38.779+01:00  INFO 20576 --- [Safar_Morocco] [  restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 9004 (http) with context path '/'
+2026-01-15T01:05:38.787+01:00  INFO 20576 --- [Safar_Morocco] [  restartedMain] m.safar.morocco.SafarMoroccoApplication  : Started SafarMoroccoApplication in 2.466 seconds (process running for 57.021)
+2026-01-15T01:05:38.800+01:00  INFO 20576 --- [Safar_Morocco] [  restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation delta:
+
+
+==========================
+CONDITION EVALUATION DELTA
+==========================
+
+
+Positive matches:
+-----------------
+
+   OAuth2ClientWebSecurityAutoConfiguration.OAuth2SecurityFilterChainConfiguration matched:
+      - AllNestedConditions 2 matched 0 did not; NestedCondition on DefaultWebSecurityCondition.Beans @ConditionalOnMissingBean (types: org.springframework.security.web.SecurityFilterChain; SearchStrategy: all) did not find any beans; NestedCondition on DefaultWebSecurityCondition.Classes @ConditionalOnClass found required classes 'org.springframework.security.web.SecurityFilterChain', 'org.springframework.security.config.annotation.web.builders.HttpSecurity' (DefaultWebSecurityCondition)
+
+   ServletWebSecurityAutoConfiguration.EnableWebSecurityConfiguration matched:
+      - @ConditionalOnClass found required class 'org.springframework.security.config.annotation.web.configuration.EnableWebSecurity' (OnClassCondition)
+      - @ConditionalOnMissingBean (names: springSecurityFilterChain; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   TaskExecutorConfigurations.AsyncConfigurerConfiguration matched:
+      - @ConditionalOnMissingBean (types: org.springframework.scheduling.annotation.AsyncConfigurer; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   TaskExecutorConfigurations.TaskExecutorConfiguration matched:
+      - AnyNestedCondition 1 matched 1 did not; NestedCondition on TaskExecutorConfigurations.OnExecutorCondition.ModelCondition @ConditionalOnProperty (spring.task.execution.mode=force) did not find property 'spring.task.execution.mode'; NestedCondition on TaskExecutorConfigurations.OnExecutorCondition.ExecutorBeanCondition @ConditionalOnMissingBean (types: java.util.concurrent.Executor; SearchStrategy: all) did not find any beans (TaskExecutorConfigurations.OnExecutorCondition)
+
+   TaskExecutorConfigurations.TaskExecutorConfiguration#applicationTaskExecutor matched:
+      - @ConditionalOnThreading found PLATFORM (OnThreadingCondition)
+
+
+Negative matches:
+-----------------
+
+   TaskExecutorConfigurations.AsyncConfigurerWrapperConfiguration:
+      Did not match:
+         - @ConditionalOnBean (types: org.springframework.scheduling.annotation.AsyncConfigurer; SearchStrategy: all) did not find any beans of type org.springframework.scheduling.annotation.AsyncConfigurer (OnBeanCondition)
+
+   TaskExecutorConfigurations.TaskExecutorConfiguration#applicationTaskExecutorVirtualThreads:
+      Did not match:
+         - @ConditionalOnThreading did not find VIRTUAL (OnThreadingCondition)
+
+
+Exclusions:
+-----------
+
+    None
+
+
+Unconditional classes:
+----------------------
+
+    None
+
+
+
+2026-01-15T01:05:47.507+01:00  INFO 20576 --- [Safar_Morocco] [   File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 83 class path changes (83 additions, 0 deletions, 0 modifications)
+2026-01-15T01:05:47.532+01:00  INFO 20576 --- [Safar_Morocco] [       Thread-5] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-01-15T01:05:48.937+01:00  INFO 20576 --- [Safar_Morocco] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-01-15T01:05:48.980+01:00  INFO 20576 --- [Safar_Morocco] [       Thread-5] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-01-15T01:05:48.982+01:00  INFO 20576 --- [Safar_Morocco] [       Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2026-01-15T01:05:49.000+01:00  INFO 20576 --- [Safar_Morocco] [       Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v4.0.1)
+
+2026-01-15T01:05:49.210+01:00  INFO 20576 --- [Safar_Morocco] [  restartedMain] m.safar.morocco.SafarMoroccoApplication  : Starting SafarMoroccoApplication using Java 17.0.12 with PID 20576 (D:\Safar_Morocco\Safar_Morocco\target\classes started by AS in D:\Safar_Morocco\Safar_Morocco)
+2026-01-15T01:05:49.211+01:00  INFO 20576 --- [Safar_Morocco] [  restartedMain] m.safar.morocco.SafarMoroccoApplication  : No active profile set, falling back to 1 default profile: "default"
+2026-01-15T01:05:49.740+01:00  INFO 20576 --- [Safar_Morocco] [  restartedMain] o.s.b.f.s.DefaultListableBeanFactory     : Overriding bean definition for bean 'jpaAuditingHandler' with a different definition: replacing [Root bean: class=org.springframework.data.auditing.AuditingHandler; scope=; abstract=false; lazyInit=null; autowireMode=2; dependencyCheck=0; autowireCandidate=true; primary=false; fallback=false; factoryBeanName=null; factoryMethodName=from; initMethodNames=null; destroyMethodNames=null] with [Root bean: class=org.springframework.data.auditing.AuditingHandler; scope=; abstract=false; lazyInit=null; autowireMode=2; dependencyCheck=0; autowireCandidate=true; primary=false; fallback=false; factoryBeanName=null; factoryMethodName=from; initMethodNames=null; destroyMethodNames=null]
+2026-01-15T01:05:49.777+01:00  INFO 20576 --- [Safar_Morocco] [  restartedMain] o.s.b.f.s.DefaultListableBeanFactory     : Overriding bean definition for bean 'org.springframework.data.jpa.domain.support.AuditingEntityListener' with an equivalent definition: replacing [Root bean: class=org.springframework.data.jpa.domain.support.AuditingEntityListener; scope=; abstract=false; lazyInit=null; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; fallback=false; factoryBeanName=null; factoryMethodName=null; initMethodNames=null; destroyMethodNames=null] with [Root bean: class=org.springframework.data.jpa.domain.support.AuditingEntityListener; scope=; abstract=false; lazyInit=null; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; fallback=false; factoryBeanName=null; factoryMethodName=null; initMethodNames=null; destroyMethodNames=null]
+2026-01-15T01:05:49.778+01:00  INFO 20576 --- [Safar_Morocco] [  restartedMain] o.s.b.f.s.DefaultListableBeanFactory     : Overriding bean definition for bean 'org.springframework.data.jpa.domain.support.AuditingBeanFactoryPostProcessor' with an equivalent definition: replacing [Root bean: class=org.springframework.data.jpa.domain.support.AuditingBeanFactoryPostProcessor; scope=; abstract=false; lazyInit=null; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; fallback=false; factoryBeanName=null; factoryMethodName=null; initMethodNames=null; destroyMethodNames=null] with [Root bean: class=org.springframework.data.jpa.domain.support.AuditingBeanFactoryPostProcessor; scope=; abstract=false; lazyInit=null; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; fallback=false; factoryBeanName=null; factoryMethodName=null; initMethodNames=null; destroyMethodNames=null]
+2026-01-15T01:05:49.901+01:00  INFO 20576 --- [Safar_Morocco] [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-01-15T01:05:50.213+01:00  INFO 20576 --- [Safar_Morocco] [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 235 ms. Found 9 JPA repository interfaces.
+2026-01-15T01:05:50.554+01:00  INFO 20576 --- [Safar_Morocco] [  restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 9004 (http)
+2026-01-15T01:05:50.555+01:00  INFO 20576 --- [Safar_Morocco] [  restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-01-15T01:05:50.555+01:00  INFO 20576 --- [Safar_Morocco] [  restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-01-15T01:05:50.599+01:00  INFO 20576 --- [Safar_Morocco] [  restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 1382 ms
+2026-01-15T01:05:50.640+01:00  INFO 20576 --- [Safar_Morocco] [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2026-01-15T01:05:50.661+01:00  INFO 20576 --- [Safar_Morocco] [  restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@19f21cfb
+2026-01-15T01:05:50.662+01:00  INFO 20576 --- [Safar_Morocco] [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2026-01-15T01:05:50.707+01:00  INFO 20576 --- [Safar_Morocco] [  restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-01-15T01:05:50.772+01:00  INFO 20576 --- [Safar_Morocco] [  restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-01-15T01:05:50.777+01:00  WARN 20576 --- [Safar_Morocco] [  restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-01-15T01:05:50.778+01:00  INFO 20576 --- [Safar_Morocco] [  restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/safar_morocco?createDatabaseIfNotExist=true&useSSL=false&serverTimezone=UTC]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.44
+	Default catalog/schema: safar_morocco/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-01-15T01:05:51.197+01:00  INFO 20576 --- [Safar_Morocco] [  restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-01-15T01:05:51.280+01:00 DEBUG 20576 --- [Safar_Morocco] [  restartedMain] org.hibernate.SQL                        : 
+    alter table audit_logs 
+       modify column status enum ('ERROR','FAILURE','SUCCESS') not null
+Hibernate: 
+    alter table audit_logs 
+       modify column status enum ('ERROR','FAILURE','SUCCESS') not null
+2026-01-15T01:05:51.366+01:00 DEBUG 20576 --- [Safar_Morocco] [  restartedMain] org.hibernate.SQL                        : 
+    alter table utilisateurs 
+       modify column role enum ('ADMIN','MODERATOR','USER') not null
+Hibernate: 
+    alter table utilisateurs 
+       modify column role enum ('ADMIN','MODERATOR','USER') not null
+2026-01-15T01:05:51.562+01:00  INFO 20576 --- [Safar_Morocco] [  restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-01-15T01:05:52.112+01:00  INFO 20576 --- [Safar_Morocco] [  restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2026-01-15T01:05:52.355+01:00  INFO 20576 --- [Safar_Morocco] [  restartedMain] ma.safar.morocco.config.AsyncConfig      : Async TaskExecutor configured: corePoolSize=2, maxPoolSize=5
+2026-01-15T01:05:52.477+01:00  WARN 20576 --- [Safar_Morocco] [  restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-01-15T01:05:52.926+01:00 DEBUG 20576 --- [Safar_Morocco] [  restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, CorsFilter, LogoutFilter, OAuth2AuthorizationRequestRedirectFilter, OAuth2LoginAuthenticationFilter, JwtAuthenticationFilter, DefaultResourcesFilter, DefaultLoginPageGeneratingFilter, DefaultLogoutPageGeneratingFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, SessionManagementFilter, ExceptionTranslationFilter, AuthorizationFilter
+2026-01-15T01:05:53.118+01:00  INFO 20576 --- [Safar_Morocco] [  restartedMain] o.s.b.w.a.WelcomePageHandlerMapping      : Adding welcome page template: index
+2026-01-15T01:05:53.704+01:00  INFO 20576 --- [Safar_Morocco] [  restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 9004 (http) with context path '/'
+2026-01-15T01:05:53.711+01:00  INFO 20576 --- [Safar_Morocco] [  restartedMain] m.safar.morocco.SafarMoroccoApplication  : Started SafarMoroccoApplication in 4.595 seconds (process running for 71.945)
+2026-01-15T01:05:53.713+01:00  INFO 20576 --- [Safar_Morocco] [  restartedMain] m.safar.morocco.config.DataInitializer   : Initializing default users...
+2026-01-15T01:05:53.785+01:00 DEBUG 20576 --- [Safar_Morocco] [  restartedMain] org.hibernate.SQL                        : 
+    /* SELECT
+        u 
+    FROM
+        Utilisateur u 
+    WHERE
+        u.email = :email */ select
+            u1_0.id,
+            u1_0.actif,
+            u1_0.compte_bloquer,
+            u1_0.date_inscription,
+            u1_0.date_modification,
+            u1_0.description,
+            u1_0.email,
+            u1_0.langue,
+            u1_0.mot_de_passe_hache,
+            u1_0.nom,
+            u1_0.photo_url,
+            u1_0.preferences,
+            u1_0.provider,
+            u1_0.provider_id,
+            u1_0.role,
+            u1_0.telephone 
+        from
+            utilisateurs u1_0 
+        where
+            u1_0.email=?
+Hibernate: 
+    /* SELECT
+        u 
+    FROM
+        Utilisateur u 
+    WHERE
+        u.email = :email */ select
+            u1_0.id,
+            u1_0.actif,
+            u1_0.compte_bloquer,
+            u1_0.date_inscription,
+            u1_0.date_modification,
+            u1_0.description,
+            u1_0.email,
+            u1_0.langue,
+            u1_0.mot_de_passe_hache,
+            u1_0.nom,
+            u1_0.photo_url,
+            u1_0.preferences,
+            u1_0.provider,
+            u1_0.provider_id,
+            u1_0.role,
+            u1_0.telephone 
+        from
+            utilisateurs u1_0 
+        where
+            u1_0.email=?
+2026-01-15T01:05:53.798+01:00 DEBUG 20576 --- [Safar_Morocco] [  restartedMain] org.hibernate.SQL                        : 
+    /* SELECT
+        t 
+    FROM
+        TwoFactorAuth t 
+    WHERE
+        t.utilisateur = :utilisateur */ select
+            tfa1_0.id,
+            tfa1_0.backup_codes,
+            tfa1_0.confirmed,
+            tfa1_0.created_at,
+            tfa1_0.enabled,
+            tfa1_0.failed_attempts,
+            tfa1_0.last_used_at,
+            tfa1_0.locked,
+            tfa1_0.qr_code_url,
+            tfa1_0.secret_key,
+            tfa1_0.utilisateur_id 
+        from
+            two_factor_auth tfa1_0 
+        where
+            tfa1_0.utilisateur_id=?
+Hibernate: 
+    /* SELECT
+        t 
+    FROM
+        TwoFactorAuth t 
+    WHERE
+        t.utilisateur = :utilisateur */ select
+            tfa1_0.id,
+            tfa1_0.backup_codes,
+            tfa1_0.confirmed,
+            tfa1_0.created_at,
+            tfa1_0.enabled,
+            tfa1_0.failed_attempts,
+            tfa1_0.last_used_at,
+            tfa1_0.locked,
+            tfa1_0.qr_code_url,
+            tfa1_0.secret_key,
+            tfa1_0.utilisateur_id 
+        from
+            two_factor_auth tfa1_0 
+        where
+            tfa1_0.utilisateur_id=?
+2026-01-15T01:05:53.810+01:00 DEBUG 20576 --- [Safar_Morocco] [  restartedMain] org.hibernate.SQL                        : 
+    select
+        u1_0.id,
+        u1_0.actif,
+        u1_0.compte_bloquer,
+        u1_0.date_inscription,
+        u1_0.date_modification,
+        u1_0.description,
+        u1_0.email,
+        u1_0.langue,
+        u1_0.mot_de_passe_hache,
+        u1_0.nom,
+        u1_0.photo_url,
+        u1_0.preferences,
+        u1_0.provider,
+        u1_0.provider_id,
+        u1_0.role,
+        u1_0.telephone 
+    from
+        utilisateurs u1_0 
+    where
+        u1_0.id=?
+Hibernate: 
+    select
+        u1_0.id,
+        u1_0.actif,
+        u1_0.compte_bloquer,
+        u1_0.date_inscription,
+        u1_0.date_modification,
+        u1_0.description,
+        u1_0.email,
+        u1_0.langue,
+        u1_0.mot_de_passe_hache,
+        u1_0.nom,
+        u1_0.photo_url,
+        u1_0.preferences,
+        u1_0.provider,
+        u1_0.provider_id,
+        u1_0.role,
+        u1_0.telephone 
+    from
+        utilisateurs u1_0 
+    where
+        u1_0.id=?
+2026-01-15T01:05:53.815+01:00 DEBUG 20576 --- [Safar_Morocco] [  restartedMain] org.hibernate.SQL                        : 
+    select
+        a1_0.utilisateur_id,
+        a1_0.id,
+        a1_0.commentaire,
+        a1_0.date_publication,
+        a1_0.destination_id,
+        a1_0.note 
+    from
+        avis a1_0 
+    where
+        a1_0.utilisateur_id=?
+Hibernate: 
+    select
+        a1_0.utilisateur_id,
+        a1_0.id,
+        a1_0.commentaire,
+        a1_0.date_publication,
+        a1_0.destination_id,
+        a1_0.note 
+    from
+        avis a1_0 
+    where
+        a1_0.utilisateur_id=?
+2026-01-15T01:05:53.822+01:00 DEBUG 20576 --- [Safar_Morocco] [  restartedMain] org.hibernate.SQL                        : 
+    select
+        i1_0.utilisateur_id,
+        i1_0.id,
+        i1_0.date_creation,
+        i1_0.duree_estimee,
+        i1_0.nom 
+    from
+        itineraires i1_0 
+    where
+        i1_0.utilisateur_id=?
+Hibernate: 
+    select
+        i1_0.utilisateur_id,
+        i1_0.id,
+        i1_0.date_creation,
+        i1_0.duree_estimee,
+        i1_0.nom 
+    from
+        itineraires i1_0 
+    where
+        i1_0.utilisateur_id=?
+2026-01-15T01:05:53.829+01:00 DEBUG 20576 --- [Safar_Morocco] [  restartedMain] org.hibernate.SQL                        : 
+    /* delete 
+    for
+        ma.safar.morocco.user.entity.Utilisateur */delete 
+    from
+        utilisateurs 
+    where
+        id=?
+Hibernate: 
+    /* delete 
+    for
+        ma.safar.morocco.user.entity.Utilisateur */delete 
+    from
+        utilisateurs 
+    where
+        id=?
+2026-01-15T01:05:53.875+01:00  INFO 20576 --- [Safar_Morocco] [  restartedMain] m.safar.morocco.config.DataInitializer   : Existing admin user deleted for recreation: admin@safar-morocco.com
+2026-01-15T01:05:54.115+01:00 DEBUG 20576 --- [Safar_Morocco] [  restartedMain] org.hibernate.SQL                        : 
+    /* insert 
+    for
+        ma.safar.morocco.user.entity.Utilisateur
+        */insert 
+    into
+        utilisateurs (actif, compte_bloquer, date_inscription, date_modification, description, email, langue, mot_de_passe_hache, nom, photo_url, preferences, provider, provider_id, role, telephone) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+Hibernate: 
+    /* insert 
+    for
+        ma.safar.morocco.user.entity.Utilisateur
+        */insert 
+    into
+        utilisateurs (actif, compte_bloquer, date_inscription, date_modification, description, email, langue, mot_de_passe_hache, nom, photo_url, preferences, provider, provider_id, role, telephone) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2026-01-15T01:05:54.199+01:00  INFO 20576 --- [Safar_Morocco] [  restartedMain] m.safar.morocco.config.DataInitializer   : Admin user created successfully: admin@safar-morocco.com
+2026-01-15T01:05:54.202+01:00 DEBUG 20576 --- [Safar_Morocco] [  restartedMain] org.hibernate.SQL                        : 
+    /* SELECT
+        u 
+    FROM
+        Utilisateur u 
+    WHERE
+        u.email = :email */ select
+            u1_0.id,
+            u1_0.actif,
+            u1_0.compte_bloquer,
+            u1_0.date_inscription,
+            u1_0.date_modification,
+            u1_0.description,
+            u1_0.email,
+            u1_0.langue,
+            u1_0.mot_de_passe_hache,
+            u1_0.nom,
+            u1_0.photo_url,
+            u1_0.preferences,
+            u1_0.provider,
+            u1_0.provider_id,
+            u1_0.role,
+            u1_0.telephone 
+        from
+            utilisateurs u1_0 
+        where
+            u1_0.email=?
+Hibernate: 
+    /* SELECT
+        u 
+    FROM
+        Utilisateur u 
+    WHERE
+        u.email = :email */ select
+            u1_0.id,
+            u1_0.actif,
+            u1_0.compte_bloquer,
+            u1_0.date_inscription,
+            u1_0.date_modification,
+            u1_0.description,
+            u1_0.email,
+            u1_0.langue,
+            u1_0.mot_de_passe_hache,
+            u1_0.nom,
+            u1_0.photo_url,
+            u1_0.preferences,
+            u1_0.provider,
+            u1_0.provider_id,
+            u1_0.role,
+            u1_0.telephone 
+        from
+            utilisateurs u1_0 
+        where
+            u1_0.email=?
+2026-01-15T01:05:54.211+01:00 DEBUG 20576 --- [Safar_Morocco] [  restartedMain] org.hibernate.SQL                        : 
+    /* SELECT
+        t 
+    FROM
+        TwoFactorAuth t 
+    WHERE
+        t.utilisateur = :utilisateur */ select
+            tfa1_0.id,
+            tfa1_0.backup_codes,
+            tfa1_0.confirmed,
+            tfa1_0.created_at,
+            tfa1_0.enabled,
+            tfa1_0.failed_attempts,
+            tfa1_0.last_used_at,
+            tfa1_0.locked,
+            tfa1_0.qr_code_url,
+            tfa1_0.secret_key,
+            tfa1_0.utilisateur_id 
+        from
+            two_factor_auth tfa1_0 
+        where
+            tfa1_0.utilisateur_id=?
+Hibernate: 
+    /* SELECT
+        t 
+    FROM
+        TwoFactorAuth t 
+    WHERE
+        t.utilisateur = :utilisateur */ select
+            tfa1_0.id,
+            tfa1_0.backup_codes,
+            tfa1_0.confirmed,
+            tfa1_0.created_at,
+            tfa1_0.enabled,
+            tfa1_0.failed_attempts,
+            tfa1_0.last_used_at,
+            tfa1_0.locked,
+            tfa1_0.qr_code_url,
+            tfa1_0.secret_key,
+            tfa1_0.utilisateur_id 
+        from
+            two_factor_auth tfa1_0 
+        where
+            tfa1_0.utilisateur_id=?
+2026-01-15T01:05:54.220+01:00 DEBUG 20576 --- [Safar_Morocco] [  restartedMain] org.hibernate.SQL                        : 
+    select
+        u1_0.id,
+        u1_0.actif,
+        u1_0.compte_bloquer,
+        u1_0.date_inscription,
+        u1_0.date_modification,
+        u1_0.description,
+        u1_0.email,
+        u1_0.langue,
+        u1_0.mot_de_passe_hache,
+        u1_0.nom,
+        u1_0.photo_url,
+        u1_0.preferences,
+        u1_0.provider,
+        u1_0.provider_id,
+        u1_0.role,
+        u1_0.telephone 
+    from
+        utilisateurs u1_0 
+    where
+        u1_0.id=?
+Hibernate: 
+    select
+        u1_0.id,
+        u1_0.actif,
+        u1_0.compte_bloquer,
+        u1_0.date_inscription,
+        u1_0.date_modification,
+        u1_0.description,
+        u1_0.email,
+        u1_0.langue,
+        u1_0.mot_de_passe_hache,
+        u1_0.nom,
+        u1_0.photo_url,
+        u1_0.preferences,
+        u1_0.provider,
+        u1_0.provider_id,
+        u1_0.role,
+        u1_0.telephone 
+    from
+        utilisateurs u1_0 
+    where
+        u1_0.id=?
+2026-01-15T01:05:54.228+01:00 DEBUG 20576 --- [Safar_Morocco] [  restartedMain] org.hibernate.SQL                        : 
+    select
+        a1_0.utilisateur_id,
+        a1_0.id,
+        a1_0.commentaire,
+        a1_0.date_publication,
+        a1_0.destination_id,
+        a1_0.note 
+    from
+        avis a1_0 
+    where
+        a1_0.utilisateur_id=?
+Hibernate: 
+    select
+        a1_0.utilisateur_id,
+        a1_0.id,
+        a1_0.commentaire,
+        a1_0.date_publication,
+        a1_0.destination_id,
+        a1_0.note 
+    from
+        avis a1_0 
+    where
+        a1_0.utilisateur_id=?
+2026-01-15T01:05:54.235+01:00 DEBUG 20576 --- [Safar_Morocco] [  restartedMain] org.hibernate.SQL                        : 
+    select
+        i1_0.utilisateur_id,
+        i1_0.id,
+        i1_0.date_creation,
+        i1_0.duree_estimee,
+        i1_0.nom 
+    from
+        itineraires i1_0 
+    where
+        i1_0.utilisateur_id=?
+Hibernate: 
+    select
+        i1_0.utilisateur_id,
+        i1_0.id,
+        i1_0.date_creation,
+        i1_0.duree_estimee,
+        i1_0.nom 
+    from
+        itineraires i1_0 
+    where
+        i1_0.utilisateur_id=?
+2026-01-15T01:05:54.243+01:00 DEBUG 20576 --- [Safar_Morocco] [  restartedMain] org.hibernate.SQL                        : 
+    /* delete 
+    for
+        ma.safar.morocco.user.entity.Utilisateur */delete 
+    from
+        utilisateurs 
+    where
+        id=?
+Hibernate: 
+    /* delete 
+    for
+        ma.safar.morocco.user.entity.Utilisateur */delete 
+    from
+        utilisateurs 
+    where
+        id=?
+2026-01-15T01:05:54.270+01:00  INFO 20576 --- [Safar_Morocco] [  restartedMain] m.safar.morocco.config.DataInitializer   : Existing default user deleted for recreation: user@safar-morocco.com
+2026-01-15T01:05:54.398+01:00 DEBUG 20576 --- [Safar_Morocco] [  restartedMain] org.hibernate.SQL                        : 
+    /* insert 
+    for
+        ma.safar.morocco.user.entity.Utilisateur
+        */insert 
+    into
+        utilisateurs (actif, compte_bloquer, date_inscription, date_modification, description, email, langue, mot_de_passe_hache, nom, photo_url, preferences, provider, provider_id, role, telephone) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+Hibernate: 
+    /* insert 
+    for
+        ma.safar.morocco.user.entity.Utilisateur
+        */insert 
+    into
+        utilisateurs (actif, compte_bloquer, date_inscription, date_modification, description, email, langue, mot_de_passe_hache, nom, photo_url, preferences, provider, provider_id, role, telephone) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2026-01-15T01:05:54.423+01:00  INFO 20576 --- [Safar_Morocco] [  restartedMain] m.safar.morocco.config.DataInitializer   : Default user created successfully: user@safar-morocco.com
+2026-01-15T01:05:54.424+01:00  INFO 20576 --- [Safar_Morocco] [  restartedMain] m.safar.morocco.config.DataInitializer   : Data initialization completed successfully
+2026-01-15T01:05:54.427+01:00  INFO 20576 --- [Safar_Morocco] [  restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation delta:
+
+
+==========================
+CONDITION EVALUATION DELTA
+==========================
+
+
+Positive matches:
+-----------------
+
+    None
+
+
+Negative matches:
+-----------------
+
+   OAuth2ClientWebSecurityAutoConfiguration.OAuth2SecurityFilterChainConfiguration:
+      Did not match:
+         - AllNestedConditions 1 matched 1 did not; NestedCondition on DefaultWebSecurityCondition.Beans @ConditionalOnMissingBean (types: org.springframework.security.web.SecurityFilterChain; SearchStrategy: all) found beans of type 'org.springframework.security.web.SecurityFilterChain' securityFilterChain; NestedCondition on DefaultWebSecurityCondition.Classes @ConditionalOnClass found required classes 'org.springframework.security.web.SecurityFilterChain', 'org.springframework.security.config.annotation.web.builders.HttpSecurity' (DefaultWebSecurityCondition)
+
+   ServletWebSecurityAutoConfiguration.EnableWebSecurityConfiguration:
+      Did not match:
+         - @ConditionalOnMissingBean (names: springSecurityFilterChain; SearchStrategy: all) found beans named springSecurityFilterChain (OnBeanCondition)
+      Matched:
+         - @ConditionalOnClass found required class 'org.springframework.security.config.annotation.web.configuration.EnableWebSecurity' (OnClassCondition)
+
+   TaskExecutorConfigurations.TaskExecutorConfiguration:
+      Did not match:
+         - AnyNestedCondition 0 matched 2 did not; NestedCondition on TaskExecutorConfigurations.OnExecutorCondition.ModelCondition @ConditionalOnProperty (spring.task.execution.mode=force) did not find property 'spring.task.execution.mode'; NestedCondition on TaskExecutorConfigurations.OnExecutorCondition.ExecutorBeanCondition @ConditionalOnMissingBean (types: java.util.concurrent.Executor; SearchStrategy: all) found beans of type 'java.util.concurrent.Executor' taskExecutor (TaskExecutorConfigurations.OnExecutorCondition)
+
+
+Exclusions:
+-----------
+
+    None
+
+
+Unconditional classes:
+----------------------
+
+    None
+
+
+
+2026-01-15T01:06:47.140+01:00  INFO 20576 --- [Safar_Morocco] [nio-9004-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-01-15T01:06:47.174+01:00  INFO 20576 --- [Safar_Morocco] [nio-9004-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-01-15T01:06:47.178+01:00  INFO 20576 --- [Safar_Morocco] [nio-9004-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2026-01-15T01:06:47.203+01:00 DEBUG 20576 --- [Safar_Morocco] [nio-9004-exec-1] o.s.security.web.FilterChainProxy        : Securing POST /api/auth/login
+2026-01-15T01:06:47.232+01:00 DEBUG 20576 --- [Safar_Morocco] [nio-9004-exec-1] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2026-01-15T01:06:47.232+01:00 DEBUG 20576 --- [Safar_Morocco] [nio-9004-exec-1] o.s.security.web.FilterChainProxy        : Secured POST /api/auth/login
+2026-01-15T01:06:47.600+01:00  WARN 20576 --- [Safar_Morocco] [nio-9004-exec-1] m.s.m.config.GlobalExceptionHandler      : Validation error: {motDePasse=Le mot de passe est obligatoire}
+2026-01-15T01:06:47.679+01:00  WARN 20576 --- [Safar_Morocco] [nio-9004-exec-1] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<ma.safar.morocco.auth.dto.AuthResponse> ma.safar.morocco.auth.controller.AuthController.login(ma.safar.morocco.auth.dto.LoginRequest): [Field error in object 'loginRequest' on field 'motDePasse': rejected value [null]; codes [NotBlank.loginRequest.motDePasse,NotBlank.motDePasse,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [loginRequest.motDePasse,motDePasse]; arguments []; default message [motDePasse]]; default message [Le mot de passe est obligatoire]] ]
+2026-01-15T01:08:10.456+01:00 DEBUG 20576 --- [Safar_Morocco] [nio-9004-exec-2] o.s.security.web.FilterChainProxy        : Securing POST /api/auth/login
+2026-01-15T01:08:10.456+01:00 DEBUG 20576 --- [Safar_Morocco] [nio-9004-exec-2] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2026-01-15T01:08:10.456+01:00 DEBUG 20576 --- [Safar_Morocco] [nio-9004-exec-2] o.s.security.web.FilterChainProxy        : Secured POST /api/auth/login
+2026-01-15T01:08:10.468+01:00  WARN 20576 --- [Safar_Morocco] [nio-9004-exec-2] m.s.m.config.GlobalExceptionHandler      : Validation error: {motDePasse=Le mot de passe est obligatoire}
+2026-01-15T01:08:10.468+01:00  WARN 20576 --- [Safar_Morocco] [nio-9004-exec-2] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<ma.safar.morocco.auth.dto.AuthResponse> ma.safar.morocco.auth.controller.AuthController.login(ma.safar.morocco.auth.dto.LoginRequest): [Field error in object 'loginRequest' on field 'motDePasse': rejected value [null]; codes [NotBlank.loginRequest.motDePasse,NotBlank.motDePasse,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [loginRequest.motDePasse,motDePasse]; arguments []; default message [motDePasse]]; default message [Le mot de passe est obligatoire]] ]
+2026-01-15T01:09:26.647+01:00  INFO 20576 --- [Safar_Morocco] [   File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 84 class path changes (0 additions, 83 deletions, 1 modification)
+2026-01-15T01:09:26.683+01:00  INFO 20576 --- [Safar_Morocco] [       Thread-9] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-01-15T01:09:27.999+01:00  INFO 20576 --- [Safar_Morocco] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-01-15T01:09:28.040+01:00  INFO 20576 --- [Safar_Morocco] [       Thread-9] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-01-15T01:09:28.042+01:00  INFO 20576 --- [Safar_Morocco] [       Thread-9] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown initiated...
+2026-01-15T01:09:28.052+01:00  INFO 20576 --- [Safar_Morocco] [       Thread-9] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown completed.
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v4.0.1)
+
+2026-01-15T01:09:28.227+01:00  INFO 20576 --- [Safar_Morocco] [  restartedMain] m.safar.morocco.SafarMoroccoApplication  : Starting SafarMoroccoApplication using Java 17.0.12 with PID 20576 (D:\Safar_Morocco\Safar_Morocco\target\classes started by AS in D:\Safar_Morocco\Safar_Morocco)
+2026-01-15T01:09:28.227+01:00  INFO 20576 --- [Safar_Morocco] [  restartedMain] m.safar.morocco.SafarMoroccoApplication  : No active profile set, falling back to 1 default profile: "default"
+2026-01-15T01:09:28.618+01:00  INFO 20576 --- [Safar_Morocco] [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-01-15T01:09:28.626+01:00  INFO 20576 --- [Safar_Morocco] [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1 ms. Found 0 JPA repository interfaces.
+2026-01-15T01:09:28.874+01:00  INFO 20576 --- [Safar_Morocco] [  restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 9004 (http)
+2026-01-15T01:09:28.899+01:00  INFO 20576 --- [Safar_Morocco] [  restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-01-15T01:09:28.901+01:00  INFO 20576 --- [Safar_Morocco] [  restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-01-15T01:09:28.947+01:00  INFO 20576 --- [Safar_Morocco] [  restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 712 ms
+2026-01-15T01:09:29.019+01:00  INFO 20576 --- [Safar_Morocco] [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Starting...
+2026-01-15T01:09:29.054+01:00  INFO 20576 --- [Safar_Morocco] [  restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-4 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1f349ec3
+2026-01-15T01:09:29.054+01:00  INFO 20576 --- [Safar_Morocco] [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Start completed.
+2026-01-15T01:09:29.078+01:00  INFO 20576 --- [Safar_Morocco] [  restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-01-15T01:09:29.143+01:00  INFO 20576 --- [Safar_Morocco] [  restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-01-15T01:09:29.149+01:00  WARN 20576 --- [Safar_Morocco] [  restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-01-15T01:09:29.151+01:00  INFO 20576 --- [Safar_Morocco] [  restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/safar_morocco?createDatabaseIfNotExist=true&useSSL=false&serverTimezone=UTC]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.44
+	Default catalog/schema: safar_morocco/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-01-15T01:09:29.192+01:00  INFO 20576 --- [Safar_Morocco] [  restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-01-15T01:09:29.192+01:00  INFO 20576 --- [Safar_Morocco] [  restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-01-15T01:09:29.294+01:00  WARN 20576 --- [Safar_Morocco] [  restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-01-15T01:09:29.348+01:00  INFO 20576 --- [Safar_Morocco] [  restartedMain] o.s.b.w.a.WelcomePageHandlerMapping      : Adding welcome page template: index
+2026-01-15T01:09:29.600+01:00 DEBUG 20576 --- [Safar_Morocco] [  restartedMain] swordEncoderAuthenticationManagerBuilder : No authenticationProviders and no parentAuthenticationManager defined. Returning null.
+2026-01-15T01:09:29.737+01:00 DEBUG 20576 --- [Safar_Morocco] [  restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, CsrfFilter, LogoutFilter, OAuth2AuthorizationRequestRedirectFilter, OAuth2AuthorizationRequestRedirectFilter, OAuth2LoginAuthenticationFilter, DefaultResourcesFilter, DefaultLoginPageGeneratingFilter, DefaultLogoutPageGeneratingFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, OAuth2AuthorizationCodeGrantFilter, ExceptionTranslationFilter, AuthorizationFilter
+2026-01-15T01:09:29.798+01:00  INFO 20576 --- [Safar_Morocco] [  restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 9004 (http) with context path '/'
+2026-01-15T01:09:29.802+01:00  INFO 20576 --- [Safar_Morocco] [  restartedMain] m.safar.morocco.SafarMoroccoApplication  : Started SafarMoroccoApplication in 1.64 seconds (process running for 288.038)
+2026-01-15T01:09:29.806+01:00  INFO 20576 --- [Safar_Morocco] [  restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation delta:
+
+
+==========================
+CONDITION EVALUATION DELTA
+==========================
+
+
+Positive matches:
+-----------------
+
+   OAuth2ClientWebSecurityAutoConfiguration.OAuth2SecurityFilterChainConfiguration matched:
+      - AllNestedConditions 2 matched 0 did not; NestedCondition on DefaultWebSecurityCondition.Beans @ConditionalOnMissingBean (types: org.springframework.security.web.SecurityFilterChain; SearchStrategy: all) did not find any beans; NestedCondition on DefaultWebSecurityCondition.Classes @ConditionalOnClass found required classes 'org.springframework.security.web.SecurityFilterChain', 'org.springframework.security.config.annotation.web.builders.HttpSecurity' (DefaultWebSecurityCondition)
+
+   ServletWebSecurityAutoConfiguration.EnableWebSecurityConfiguration matched:
+      - @ConditionalOnClass found required class 'org.springframework.security.config.annotation.web.configuration.EnableWebSecurity' (OnClassCondition)
+      - @ConditionalOnMissingBean (names: springSecurityFilterChain; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   TaskExecutorConfigurations.AsyncConfigurerConfiguration matched:
+      - @ConditionalOnMissingBean (types: org.springframework.scheduling.annotation.AsyncConfigurer; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   TaskExecutorConfigurations.TaskExecutorConfiguration matched:
+      - AnyNestedCondition 1 matched 1 did not; NestedCondition on TaskExecutorConfigurations.OnExecutorCondition.ModelCondition @ConditionalOnProperty (spring.task.execution.mode=force) did not find property 'spring.task.execution.mode'; NestedCondition on TaskExecutorConfigurations.OnExecutorCondition.ExecutorBeanCondition @ConditionalOnMissingBean (types: java.util.concurrent.Executor; SearchStrategy: all) did not find any beans (TaskExecutorConfigurations.OnExecutorCondition)
+
+   TaskExecutorConfigurations.TaskExecutorConfiguration#applicationTaskExecutor matched:
+      - @ConditionalOnThreading found PLATFORM (OnThreadingCondition)
+
+
+Negative matches:
+-----------------
+
+   TaskExecutorConfigurations.AsyncConfigurerWrapperConfiguration:
+      Did not match:
+         - @ConditionalOnBean (types: org.springframework.scheduling.annotation.AsyncConfigurer; SearchStrategy: all) did not find any beans of type org.springframework.scheduling.annotation.AsyncConfigurer (OnBeanCondition)
+
+   TaskExecutorConfigurations.TaskExecutorConfiguration#applicationTaskExecutorVirtualThreads:
+      Did not match:
+         - @ConditionalOnThreading did not find VIRTUAL (OnThreadingCondition)
+
+
+Exclusions:
+-----------
+
+    None
+
+
+Unconditional classes:
+----------------------
+
+    None
+
+
+
+2026-01-15T01:09:36.933+01:00  INFO 20576 --- [Safar_Morocco] [   File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 83 class path changes (83 additions, 0 deletions, 0 modifications)
+2026-01-15T01:09:36.968+01:00  INFO 20576 --- [Safar_Morocco] [      Thread-13] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-01-15T01:09:38.609+01:00  INFO 20576 --- [Safar_Morocco] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-01-15T01:09:38.609+01:00  INFO 20576 --- [Safar_Morocco] [      Thread-13] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-01-15T01:09:38.609+01:00  INFO 20576 --- [Safar_Morocco] [      Thread-13] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown initiated...
+2026-01-15T01:09:38.623+01:00  INFO 20576 --- [Safar_Morocco] [      Thread-13] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown completed.
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v4.0.1)
+
+2026-01-15T01:09:38.782+01:00  INFO 20576 --- [Safar_Morocco] [  restartedMain] m.safar.morocco.SafarMoroccoApplication  : Starting SafarMoroccoApplication using Java 17.0.12 with PID 20576 (D:\Safar_Morocco\Safar_Morocco\target\classes started by AS in D:\Safar_Morocco\Safar_Morocco)
+2026-01-15T01:09:38.782+01:00  INFO 20576 --- [Safar_Morocco] [  restartedMain] m.safar.morocco.SafarMoroccoApplication  : No active profile set, falling back to 1 default profile: "default"
+2026-01-15T01:09:39.324+01:00  INFO 20576 --- [Safar_Morocco] [  restartedMain] o.s.b.f.s.DefaultListableBeanFactory     : Overriding bean definition for bean 'jpaAuditingHandler' with a different definition: replacing [Root bean: class=org.springframework.data.auditing.AuditingHandler; scope=; abstract=false; lazyInit=null; autowireMode=2; dependencyCheck=0; autowireCandidate=true; primary=false; fallback=false; factoryBeanName=null; factoryMethodName=from; initMethodNames=null; destroyMethodNames=null] with [Root bean: class=org.springframework.data.auditing.AuditingHandler; scope=; abstract=false; lazyInit=null; autowireMode=2; dependencyCheck=0; autowireCandidate=true; primary=false; fallback=false; factoryBeanName=null; factoryMethodName=from; initMethodNames=null; destroyMethodNames=null]
+2026-01-15T01:09:39.324+01:00  INFO 20576 --- [Safar_Morocco] [  restartedMain] o.s.b.f.s.DefaultListableBeanFactory     : Overriding bean definition for bean 'org.springframework.data.jpa.domain.support.AuditingEntityListener' with an equivalent definition: replacing [Root bean: class=org.springframework.data.jpa.domain.support.AuditingEntityListener; scope=; abstract=false; lazyInit=null; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; fallback=false; factoryBeanName=null; factoryMethodName=null; initMethodNames=null; destroyMethodNames=null] with [Root bean: class=org.springframework.data.jpa.domain.support.AuditingEntityListener; scope=; abstract=false; lazyInit=null; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; fallback=false; factoryBeanName=null; factoryMethodName=null; initMethodNames=null; destroyMethodNames=null]
+2026-01-15T01:09:39.326+01:00  INFO 20576 --- [Safar_Morocco] [  restartedMain] o.s.b.f.s.DefaultListableBeanFactory     : Overriding bean definition for bean 'org.springframework.data.jpa.domain.support.AuditingBeanFactoryPostProcessor' with an equivalent definition: replacing [Root bean: class=org.springframework.data.jpa.domain.support.AuditingBeanFactoryPostProcessor; scope=; abstract=false; lazyInit=null; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; fallback=false; factoryBeanName=null; factoryMethodName=null; initMethodNames=null; destroyMethodNames=null] with [Root bean: class=org.springframework.data.jpa.domain.support.AuditingBeanFactoryPostProcessor; scope=; abstract=false; lazyInit=null; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; fallback=false; factoryBeanName=null; factoryMethodName=null; initMethodNames=null; destroyMethodNames=null]
+2026-01-15T01:09:39.426+01:00  INFO 20576 --- [Safar_Morocco] [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-01-15T01:09:39.610+01:00  INFO 20576 --- [Safar_Morocco] [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 174 ms. Found 9 JPA repository interfaces.
+2026-01-15T01:09:39.939+01:00  INFO 20576 --- [Safar_Morocco] [  restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 9004 (http)
+2026-01-15T01:09:39.939+01:00  INFO 20576 --- [Safar_Morocco] [  restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-01-15T01:09:39.942+01:00  INFO 20576 --- [Safar_Morocco] [  restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-01-15T01:09:39.986+01:00  INFO 20576 --- [Safar_Morocco] [  restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 1200 ms
+2026-01-15T01:09:40.082+01:00  INFO 20576 --- [Safar_Morocco] [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Starting...
+2026-01-15T01:09:40.133+01:00  INFO 20576 --- [Safar_Morocco] [  restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-5 - Added connection com.mysql.cj.jdbc.ConnectionImpl@616957a
+2026-01-15T01:09:40.135+01:00  INFO 20576 --- [Safar_Morocco] [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Start completed.
+2026-01-15T01:09:40.254+01:00  INFO 20576 --- [Safar_Morocco] [  restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-01-15T01:09:40.381+01:00  INFO 20576 --- [Safar_Morocco] [  restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-01-15T01:09:40.387+01:00  WARN 20576 --- [Safar_Morocco] [  restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-01-15T01:09:40.390+01:00  INFO 20576 --- [Safar_Morocco] [  restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/safar_morocco?createDatabaseIfNotExist=true&useSSL=false&serverTimezone=UTC]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.44
+	Default catalog/schema: safar_morocco/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-01-15T01:09:40.897+01:00  INFO 20576 --- [Safar_Morocco] [  restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-01-15T01:09:40.985+01:00 DEBUG 20576 --- [Safar_Morocco] [  restartedMain] org.hibernate.SQL                        : 
+    alter table audit_logs 
+       modify column status enum ('ERROR','FAILURE','SUCCESS') not null
+Hibernate: 
+    alter table audit_logs 
+       modify column status enum ('ERROR','FAILURE','SUCCESS') not null
+2026-01-15T01:09:41.021+01:00 DEBUG 20576 --- [Safar_Morocco] [  restartedMain] org.hibernate.SQL                        : 
+    alter table utilisateurs 
+       modify column role enum ('ADMIN','MODERATOR','USER') not null
+Hibernate: 
+    alter table utilisateurs 
+       modify column role enum ('ADMIN','MODERATOR','USER') not null
+2026-01-15T01:09:41.163+01:00  INFO 20576 --- [Safar_Morocco] [  restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-01-15T01:09:41.548+01:00  INFO 20576 --- [Safar_Morocco] [  restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2026-01-15T01:09:41.835+01:00  INFO 20576 --- [Safar_Morocco] [  restartedMain] ma.safar.morocco.config.AsyncConfig      : Async TaskExecutor configured: corePoolSize=2, maxPoolSize=5
+2026-01-15T01:09:41.945+01:00  WARN 20576 --- [Safar_Morocco] [  restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-01-15T01:09:42.393+01:00 DEBUG 20576 --- [Safar_Morocco] [  restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, CorsFilter, LogoutFilter, OAuth2AuthorizationRequestRedirectFilter, OAuth2LoginAuthenticationFilter, JwtAuthenticationFilter, DefaultResourcesFilter, DefaultLoginPageGeneratingFilter, DefaultLogoutPageGeneratingFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, SessionManagementFilter, ExceptionTranslationFilter, AuthorizationFilter
+2026-01-15T01:09:42.489+01:00  INFO 20576 --- [Safar_Morocco] [  restartedMain] o.s.b.w.a.WelcomePageHandlerMapping      : Adding welcome page template: index
+2026-01-15T01:09:43.056+01:00  INFO 20576 --- [Safar_Morocco] [  restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 9004 (http) with context path '/'
+2026-01-15T01:09:43.064+01:00  INFO 20576 --- [Safar_Morocco] [  restartedMain] m.safar.morocco.SafarMoroccoApplication  : Started SafarMoroccoApplication in 4.356 seconds (process running for 301.298)
+2026-01-15T01:09:43.066+01:00  INFO 20576 --- [Safar_Morocco] [  restartedMain] m.safar.morocco.config.DataInitializer   : Initializing default users...
+2026-01-15T01:09:43.130+01:00 DEBUG 20576 --- [Safar_Morocco] [  restartedMain] org.hibernate.SQL                        : 
+    /* SELECT
+        u 
+    FROM
+        Utilisateur u 
+    WHERE
+        u.email = :email */ select
+            u1_0.id,
+            u1_0.actif,
+            u1_0.compte_bloquer,
+            u1_0.date_inscription,
+            u1_0.date_modification,
+            u1_0.description,
+            u1_0.email,
+            u1_0.langue,
+            u1_0.mot_de_passe_hache,
+            u1_0.nom,
+            u1_0.photo_url,
+            u1_0.preferences,
+            u1_0.provider,
+            u1_0.provider_id,
+            u1_0.role,
+            u1_0.telephone 
+        from
+            utilisateurs u1_0 
+        where
+            u1_0.email=?
+Hibernate: 
+    /* SELECT
+        u 
+    FROM
+        Utilisateur u 
+    WHERE
+        u.email = :email */ select
+            u1_0.id,
+            u1_0.actif,
+            u1_0.compte_bloquer,
+            u1_0.date_inscription,
+            u1_0.date_modification,
+            u1_0.description,
+            u1_0.email,
+            u1_0.langue,
+            u1_0.mot_de_passe_hache,
+            u1_0.nom,
+            u1_0.photo_url,
+            u1_0.preferences,
+            u1_0.provider,
+            u1_0.provider_id,
+            u1_0.role,
+            u1_0.telephone 
+        from
+            utilisateurs u1_0 
+        where
+            u1_0.email=?
+2026-01-15T01:09:43.139+01:00 DEBUG 20576 --- [Safar_Morocco] [  restartedMain] org.hibernate.SQL                        : 
+    /* SELECT
+        t 
+    FROM
+        TwoFactorAuth t 
+    WHERE
+        t.utilisateur = :utilisateur */ select
+            tfa1_0.id,
+            tfa1_0.backup_codes,
+            tfa1_0.confirmed,
+            tfa1_0.created_at,
+            tfa1_0.enabled,
+            tfa1_0.failed_attempts,
+            tfa1_0.last_used_at,
+            tfa1_0.locked,
+            tfa1_0.qr_code_url,
+            tfa1_0.secret_key,
+            tfa1_0.utilisateur_id 
+        from
+            two_factor_auth tfa1_0 
+        where
+            tfa1_0.utilisateur_id=?
+Hibernate: 
+    /* SELECT
+        t 
+    FROM
+        TwoFactorAuth t 
+    WHERE
+        t.utilisateur = :utilisateur */ select
+            tfa1_0.id,
+            tfa1_0.backup_codes,
+            tfa1_0.confirmed,
+            tfa1_0.created_at,
+            tfa1_0.enabled,
+            tfa1_0.failed_attempts,
+            tfa1_0.last_used_at,
+            tfa1_0.locked,
+            tfa1_0.qr_code_url,
+            tfa1_0.secret_key,
+            tfa1_0.utilisateur_id 
+        from
+            two_factor_auth tfa1_0 
+        where
+            tfa1_0.utilisateur_id=?
+2026-01-15T01:09:43.149+01:00 DEBUG 20576 --- [Safar_Morocco] [  restartedMain] org.hibernate.SQL                        : 
+    select
+        u1_0.id,
+        u1_0.actif,
+        u1_0.compte_bloquer,
+        u1_0.date_inscription,
+        u1_0.date_modification,
+        u1_0.description,
+        u1_0.email,
+        u1_0.langue,
+        u1_0.mot_de_passe_hache,
+        u1_0.nom,
+        u1_0.photo_url,
+        u1_0.preferences,
+        u1_0.provider,
+        u1_0.provider_id,
+        u1_0.role,
+        u1_0.telephone 
+    from
+        utilisateurs u1_0 
+    where
+        u1_0.id=?
+Hibernate: 
+    select
+        u1_0.id,
+        u1_0.actif,
+        u1_0.compte_bloquer,
+        u1_0.date_inscription,
+        u1_0.date_modification,
+        u1_0.description,
+        u1_0.email,
+        u1_0.langue,
+        u1_0.mot_de_passe_hache,
+        u1_0.nom,
+        u1_0.photo_url,
+        u1_0.preferences,
+        u1_0.provider,
+        u1_0.provider_id,
+        u1_0.role,
+        u1_0.telephone 
+    from
+        utilisateurs u1_0 
+    where
+        u1_0.id=?
+2026-01-15T01:09:43.155+01:00 DEBUG 20576 --- [Safar_Morocco] [  restartedMain] org.hibernate.SQL                        : 
+    select
+        a1_0.utilisateur_id,
+        a1_0.id,
+        a1_0.commentaire,
+        a1_0.date_publication,
+        a1_0.destination_id,
+        a1_0.note 
+    from
+        avis a1_0 
+    where
+        a1_0.utilisateur_id=?
+Hibernate: 
+    select
+        a1_0.utilisateur_id,
+        a1_0.id,
+        a1_0.commentaire,
+        a1_0.date_publication,
+        a1_0.destination_id,
+        a1_0.note 
+    from
+        avis a1_0 
+    where
+        a1_0.utilisateur_id=?
+2026-01-15T01:09:43.161+01:00 DEBUG 20576 --- [Safar_Morocco] [  restartedMain] org.hibernate.SQL                        : 
+    select
+        i1_0.utilisateur_id,
+        i1_0.id,
+        i1_0.date_creation,
+        i1_0.duree_estimee,
+        i1_0.nom 
+    from
+        itineraires i1_0 
+    where
+        i1_0.utilisateur_id=?
+Hibernate: 
+    select
+        i1_0.utilisateur_id,
+        i1_0.id,
+        i1_0.date_creation,
+        i1_0.duree_estimee,
+        i1_0.nom 
+    from
+        itineraires i1_0 
+    where
+        i1_0.utilisateur_id=?
+2026-01-15T01:09:43.168+01:00 DEBUG 20576 --- [Safar_Morocco] [  restartedMain] org.hibernate.SQL                        : 
+    /* delete 
+    for
+        ma.safar.morocco.user.entity.Utilisateur */delete 
+    from
+        utilisateurs 
+    where
+        id=?
+Hibernate: 
+    /* delete 
+    for
+        ma.safar.morocco.user.entity.Utilisateur */delete 
+    from
+        utilisateurs 
+    where
+        id=?
+2026-01-15T01:09:43.187+01:00  INFO 20576 --- [Safar_Morocco] [  restartedMain] m.safar.morocco.config.DataInitializer   : Existing admin user deleted for recreation: admin@safar-morocco.com
+2026-01-15T01:09:43.370+01:00 DEBUG 20576 --- [Safar_Morocco] [  restartedMain] org.hibernate.SQL                        : 
+    /* insert 
+    for
+        ma.safar.morocco.user.entity.Utilisateur
+        */insert 
+    into
+        utilisateurs (actif, compte_bloquer, date_inscription, date_modification, description, email, langue, mot_de_passe_hache, nom, photo_url, preferences, provider, provider_id, role, telephone) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+Hibernate: 
+    /* insert 
+    for
+        ma.safar.morocco.user.entity.Utilisateur
+        */insert 
+    into
+        utilisateurs (actif, compte_bloquer, date_inscription, date_modification, description, email, langue, mot_de_passe_hache, nom, photo_url, preferences, provider, provider_id, role, telephone) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2026-01-15T01:09:43.509+01:00  INFO 20576 --- [Safar_Morocco] [  restartedMain] m.safar.morocco.config.DataInitializer   : Admin user created successfully: admin@safar-morocco.com
+2026-01-15T01:09:43.509+01:00 DEBUG 20576 --- [Safar_Morocco] [  restartedMain] org.hibernate.SQL                        : 
+    /* SELECT
+        u 
+    FROM
+        Utilisateur u 
+    WHERE
+        u.email = :email */ select
+            u1_0.id,
+            u1_0.actif,
+            u1_0.compte_bloquer,
+            u1_0.date_inscription,
+            u1_0.date_modification,
+            u1_0.description,
+            u1_0.email,
+            u1_0.langue,
+            u1_0.mot_de_passe_hache,
+            u1_0.nom,
+            u1_0.photo_url,
+            u1_0.preferences,
+            u1_0.provider,
+            u1_0.provider_id,
+            u1_0.role,
+            u1_0.telephone 
+        from
+            utilisateurs u1_0 
+        where
+            u1_0.email=?
+Hibernate: 
+    /* SELECT
+        u 
+    FROM
+        Utilisateur u 
+    WHERE
+        u.email = :email */ select
+            u1_0.id,
+            u1_0.actif,
+            u1_0.compte_bloquer,
+            u1_0.date_inscription,
+            u1_0.date_modification,
+            u1_0.description,
+            u1_0.email,
+            u1_0.langue,
+            u1_0.mot_de_passe_hache,
+            u1_0.nom,
+            u1_0.photo_url,
+            u1_0.preferences,
+            u1_0.provider,
+            u1_0.provider_id,
+            u1_0.role,
+            u1_0.telephone 
+        from
+            utilisateurs u1_0 
+        where
+            u1_0.email=?
+2026-01-15T01:09:43.514+01:00 DEBUG 20576 --- [Safar_Morocco] [  restartedMain] org.hibernate.SQL                        : 
+    /* SELECT
+        t 
+    FROM
+        TwoFactorAuth t 
+    WHERE
+        t.utilisateur = :utilisateur */ select
+            tfa1_0.id,
+            tfa1_0.backup_codes,
+            tfa1_0.confirmed,
+            tfa1_0.created_at,
+            tfa1_0.enabled,
+            tfa1_0.failed_attempts,
+            tfa1_0.last_used_at,
+            tfa1_0.locked,
+            tfa1_0.qr_code_url,
+            tfa1_0.secret_key,
+            tfa1_0.utilisateur_id 
+        from
+            two_factor_auth tfa1_0 
+        where
+            tfa1_0.utilisateur_id=?
+Hibernate: 
+    /* SELECT
+        t 
+    FROM
+        TwoFactorAuth t 
+    WHERE
+        t.utilisateur = :utilisateur */ select
+            tfa1_0.id,
+            tfa1_0.backup_codes,
+            tfa1_0.confirmed,
+            tfa1_0.created_at,
+            tfa1_0.enabled,
+            tfa1_0.failed_attempts,
+            tfa1_0.last_used_at,
+            tfa1_0.locked,
+            tfa1_0.qr_code_url,
+            tfa1_0.secret_key,
+            tfa1_0.utilisateur_id 
+        from
+            two_factor_auth tfa1_0 
+        where
+            tfa1_0.utilisateur_id=?
+2026-01-15T01:09:43.523+01:00 DEBUG 20576 --- [Safar_Morocco] [  restartedMain] org.hibernate.SQL                        : 
+    select
+        u1_0.id,
+        u1_0.actif,
+        u1_0.compte_bloquer,
+        u1_0.date_inscription,
+        u1_0.date_modification,
+        u1_0.description,
+        u1_0.email,
+        u1_0.langue,
+        u1_0.mot_de_passe_hache,
+        u1_0.nom,
+        u1_0.photo_url,
+        u1_0.preferences,
+        u1_0.provider,
+        u1_0.provider_id,
+        u1_0.role,
+        u1_0.telephone 
+    from
+        utilisateurs u1_0 
+    where
+        u1_0.id=?
+Hibernate: 
+    select
+        u1_0.id,
+        u1_0.actif,
+        u1_0.compte_bloquer,
+        u1_0.date_inscription,
+        u1_0.date_modification,
+        u1_0.description,
+        u1_0.email,
+        u1_0.langue,
+        u1_0.mot_de_passe_hache,
+        u1_0.nom,
+        u1_0.photo_url,
+        u1_0.preferences,
+        u1_0.provider,
+        u1_0.provider_id,
+        u1_0.role,
+        u1_0.telephone 
+    from
+        utilisateurs u1_0 
+    where
+        u1_0.id=?
+2026-01-15T01:09:43.529+01:00 DEBUG 20576 --- [Safar_Morocco] [  restartedMain] org.hibernate.SQL                        : 
+    select
+        a1_0.utilisateur_id,
+        a1_0.id,
+        a1_0.commentaire,
+        a1_0.date_publication,
+        a1_0.destination_id,
+        a1_0.note 
+    from
+        avis a1_0 
+    where
+        a1_0.utilisateur_id=?
+Hibernate: 
+    select
+        a1_0.utilisateur_id,
+        a1_0.id,
+        a1_0.commentaire,
+        a1_0.date_publication,
+        a1_0.destination_id,
+        a1_0.note 
+    from
+        avis a1_0 
+    where
+        a1_0.utilisateur_id=?
+2026-01-15T01:09:43.534+01:00 DEBUG 20576 --- [Safar_Morocco] [  restartedMain] org.hibernate.SQL                        : 
+    select
+        i1_0.utilisateur_id,
+        i1_0.id,
+        i1_0.date_creation,
+        i1_0.duree_estimee,
+        i1_0.nom 
+    from
+        itineraires i1_0 
+    where
+        i1_0.utilisateur_id=?
+Hibernate: 
+    select
+        i1_0.utilisateur_id,
+        i1_0.id,
+        i1_0.date_creation,
+        i1_0.duree_estimee,
+        i1_0.nom 
+    from
+        itineraires i1_0 
+    where
+        i1_0.utilisateur_id=?
+2026-01-15T01:09:43.536+01:00 DEBUG 20576 --- [Safar_Morocco] [  restartedMain] org.hibernate.SQL                        : 
+    /* delete 
+    for
+        ma.safar.morocco.user.entity.Utilisateur */delete 
+    from
+        utilisateurs 
+    where
+        id=?
+Hibernate: 
+    /* delete 
+    for
+        ma.safar.morocco.user.entity.Utilisateur */delete 
+    from
+        utilisateurs 
+    where
+        id=?
+2026-01-15T01:09:43.571+01:00  INFO 20576 --- [Safar_Morocco] [  restartedMain] m.safar.morocco.config.DataInitializer   : Existing default user deleted for recreation: user@safar-morocco.com
+2026-01-15T01:09:43.708+01:00 DEBUG 20576 --- [Safar_Morocco] [  restartedMain] org.hibernate.SQL                        : 
+    /* insert 
+    for
+        ma.safar.morocco.user.entity.Utilisateur
+        */insert 
+    into
+        utilisateurs (actif, compte_bloquer, date_inscription, date_modification, description, email, langue, mot_de_passe_hache, nom, photo_url, preferences, provider, provider_id, role, telephone) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+Hibernate: 
+    /* insert 
+    for
+        ma.safar.morocco.user.entity.Utilisateur
+        */insert 
+    into
+        utilisateurs (actif, compte_bloquer, date_inscription, date_modification, description, email, langue, mot_de_passe_hache, nom, photo_url, preferences, provider, provider_id, role, telephone) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2026-01-15T01:09:43.727+01:00  INFO 20576 --- [Safar_Morocco] [  restartedMain] m.safar.morocco.config.DataInitializer   : Default user created successfully: user@safar-morocco.com
+2026-01-15T01:09:43.727+01:00  INFO 20576 --- [Safar_Morocco] [  restartedMain] m.safar.morocco.config.DataInitializer   : Data initialization completed successfully
+2026-01-15T01:09:43.727+01:00  INFO 20576 --- [Safar_Morocco] [  restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation delta:
+
+
+==========================
+CONDITION EVALUATION DELTA
+==========================
+
+
+Positive matches:
+-----------------
+
+    None
+
+
+Negative matches:
+-----------------
+
+   OAuth2ClientWebSecurityAutoConfiguration.OAuth2SecurityFilterChainConfiguration:
+      Did not match:
+         - AllNestedConditions 1 matched 1 did not; NestedCondition on DefaultWebSecurityCondition.Beans @ConditionalOnMissingBean (types: org.springframework.security.web.SecurityFilterChain; SearchStrategy: all) found beans of type 'org.springframework.security.web.SecurityFilterChain' securityFilterChain; NestedCondition on DefaultWebSecurityCondition.Classes @ConditionalOnClass found required classes 'org.springframework.security.web.SecurityFilterChain', 'org.springframework.security.config.annotation.web.builders.HttpSecurity' (DefaultWebSecurityCondition)
+
+   ServletWebSecurityAutoConfiguration.EnableWebSecurityConfiguration:
+      Did not match:
+         - @ConditionalOnMissingBean (names: springSecurityFilterChain; SearchStrategy: all) found beans named springSecurityFilterChain (OnBeanCondition)
+      Matched:
+         - @ConditionalOnClass found required class 'org.springframework.security.config.annotation.web.configuration.EnableWebSecurity' (OnClassCondition)
+
+   TaskExecutorConfigurations.TaskExecutorConfiguration:
+      Did not match:
+         - AnyNestedCondition 0 matched 2 did not; NestedCondition on TaskExecutorConfigurations.OnExecutorCondition.ModelCondition @ConditionalOnProperty (spring.task.execution.mode=force) did not find property 'spring.task.execution.mode'; NestedCondition on TaskExecutorConfigurations.OnExecutorCondition.ExecutorBeanCondition @ConditionalOnMissingBean (types: java.util.concurrent.Executor; SearchStrategy: all) found beans of type 'java.util.concurrent.Executor' taskExecutor (TaskExecutorConfigurations.OnExecutorCondition)
+
+
+Exclusions:
+-----------
+
+    None
+
+
+Unconditional classes:
+----------------------
+
+    None
+
+
+
+2026-01-15T01:10:34.486+01:00  INFO 20576 --- [Safar_Morocco] [   File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 84 class path changes (0 additions, 83 deletions, 1 modification)
+2026-01-15T01:10:34.489+01:00  INFO 20576 --- [Safar_Morocco] [      Thread-17] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-01-15T01:10:35.802+01:00  INFO 20576 --- [Safar_Morocco] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-01-15T01:10:35.843+01:00  INFO 20576 --- [Safar_Morocco] [      Thread-17] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-01-15T01:10:35.845+01:00  INFO 20576 --- [Safar_Morocco] [      Thread-17] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown initiated...
+2026-01-15T01:10:35.857+01:00  INFO 20576 --- [Safar_Morocco] [      Thread-17] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown completed.
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v4.0.1)
+
+2026-01-15T01:10:36.087+01:00  INFO 20576 --- [Safar_Morocco] [  restartedMain] m.safar.morocco.SafarMoroccoApplication  : Starting SafarMoroccoApplication using Java 17.0.12 with PID 20576 (D:\Safar_Morocco\Safar_Morocco\target\classes started by AS in D:\Safar_Morocco\Safar_Morocco)
+2026-01-15T01:10:36.087+01:00  INFO 20576 --- [Safar_Morocco] [  restartedMain] m.safar.morocco.SafarMoroccoApplication  : No active profile set, falling back to 1 default profile: "default"
+2026-01-15T01:10:36.399+01:00  INFO 20576 --- [Safar_Morocco] [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-01-15T01:10:36.440+01:00  INFO 20576 --- [Safar_Morocco] [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1 ms. Found 0 JPA repository interfaces.
+2026-01-15T01:10:36.629+01:00  INFO 20576 --- [Safar_Morocco] [  restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 9004 (http)
+2026-01-15T01:10:36.629+01:00  INFO 20576 --- [Safar_Morocco] [  restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-01-15T01:10:36.629+01:00  INFO 20576 --- [Safar_Morocco] [  restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-01-15T01:10:36.679+01:00  INFO 20576 --- [Safar_Morocco] [  restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 592 ms
+2026-01-15T01:10:36.722+01:00  INFO 20576 --- [Safar_Morocco] [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Starting...
+2026-01-15T01:10:36.744+01:00  INFO 20576 --- [Safar_Morocco] [  restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-6 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3b0142ba
+2026-01-15T01:10:36.744+01:00  INFO 20576 --- [Safar_Morocco] [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Start completed.
+2026-01-15T01:10:36.770+01:00  INFO 20576 --- [Safar_Morocco] [  restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-01-15T01:10:36.833+01:00  INFO 20576 --- [Safar_Morocco] [  restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-01-15T01:10:36.840+01:00  WARN 20576 --- [Safar_Morocco] [  restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-01-15T01:10:36.840+01:00  INFO 20576 --- [Safar_Morocco] [  restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/safar_morocco?createDatabaseIfNotExist=true&useSSL=false&serverTimezone=UTC]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.44
+	Default catalog/schema: safar_morocco/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-01-15T01:10:36.893+01:00  INFO 20576 --- [Safar_Morocco] [  restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-01-15T01:10:36.898+01:00  INFO 20576 --- [Safar_Morocco] [  restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-01-15T01:10:36.973+01:00  WARN 20576 --- [Safar_Morocco] [  restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-01-15T01:10:37.077+01:00  INFO 20576 --- [Safar_Morocco] [  restartedMain] o.s.b.w.a.WelcomePageHandlerMapping      : Adding welcome page template: index
+2026-01-15T01:10:37.287+01:00 DEBUG 20576 --- [Safar_Morocco] [  restartedMain] swordEncoderAuthenticationManagerBuilder : No authenticationProviders and no parentAuthenticationManager defined. Returning null.
+2026-01-15T01:10:37.423+01:00 DEBUG 20576 --- [Safar_Morocco] [  restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, CsrfFilter, LogoutFilter, OAuth2AuthorizationRequestRedirectFilter, OAuth2AuthorizationRequestRedirectFilter, OAuth2LoginAuthenticationFilter, DefaultResourcesFilter, DefaultLoginPageGeneratingFilter, DefaultLogoutPageGeneratingFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, OAuth2AuthorizationCodeGrantFilter, ExceptionTranslationFilter, AuthorizationFilter
+2026-01-15T01:10:37.529+01:00  INFO 20576 --- [Safar_Morocco] [  restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 9004 (http) with context path '/'
+2026-01-15T01:10:37.535+01:00  INFO 20576 --- [Safar_Morocco] [  restartedMain] m.safar.morocco.SafarMoroccoApplication  : Started SafarMoroccoApplication in 1.54 seconds (process running for 355.77)
+2026-01-15T01:10:37.539+01:00  INFO 20576 --- [Safar_Morocco] [  restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation delta:
+
+
+==========================
+CONDITION EVALUATION DELTA
+==========================
+
+
+Positive matches:
+-----------------
+
+   OAuth2ClientWebSecurityAutoConfiguration.OAuth2SecurityFilterChainConfiguration matched:
+      - AllNestedConditions 2 matched 0 did not; NestedCondition on DefaultWebSecurityCondition.Beans @ConditionalOnMissingBean (types: org.springframework.security.web.SecurityFilterChain; SearchStrategy: all) did not find any beans; NestedCondition on DefaultWebSecurityCondition.Classes @ConditionalOnClass found required classes 'org.springframework.security.web.SecurityFilterChain', 'org.springframework.security.config.annotation.web.builders.HttpSecurity' (DefaultWebSecurityCondition)
+
+   ServletWebSecurityAutoConfiguration.EnableWebSecurityConfiguration matched:
+      - @ConditionalOnClass found required class 'org.springframework.security.config.annotation.web.configuration.EnableWebSecurity' (OnClassCondition)
+      - @ConditionalOnMissingBean (names: springSecurityFilterChain; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   TaskExecutorConfigurations.AsyncConfigurerConfiguration matched:
+      - @ConditionalOnMissingBean (types: org.springframework.scheduling.annotation.AsyncConfigurer; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   TaskExecutorConfigurations.TaskExecutorConfiguration matched:
+      - AnyNestedCondition 1 matched 1 did not; NestedCondition on TaskExecutorConfigurations.OnExecutorCondition.ModelCondition @ConditionalOnProperty (spring.task.execution.mode=force) did not find property 'spring.task.execution.mode'; NestedCondition on TaskExecutorConfigurations.OnExecutorCondition.ExecutorBeanCondition @ConditionalOnMissingBean (types: java.util.concurrent.Executor; SearchStrategy: all) did not find any beans (TaskExecutorConfigurations.OnExecutorCondition)
+
+   TaskExecutorConfigurations.TaskExecutorConfiguration#applicationTaskExecutor matched:
+      - @ConditionalOnThreading found PLATFORM (OnThreadingCondition)
+
+
+Negative matches:
+-----------------
+
+   TaskExecutorConfigurations.AsyncConfigurerWrapperConfiguration:
+      Did not match:
+         - @ConditionalOnBean (types: org.springframework.scheduling.annotation.AsyncConfigurer; SearchStrategy: all) did not find any beans of type org.springframework.scheduling.annotation.AsyncConfigurer (OnBeanCondition)
+
+   TaskExecutorConfigurations.TaskExecutorConfiguration#applicationTaskExecutorVirtualThreads:
+      Did not match:
+         - @ConditionalOnThreading did not find VIRTUAL (OnThreadingCondition)
+
+
+Exclusions:
+-----------
+
+    None
+
+
+Unconditional classes:
+----------------------
+
+    None
+
+
+
+2026-01-15T01:10:45.055+01:00  INFO 20576 --- [Safar_Morocco] [   File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 83 class path changes (83 additions, 0 deletions, 0 modifications)
+2026-01-15T01:10:45.091+01:00  INFO 20576 --- [Safar_Morocco] [      Thread-21] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-01-15T01:10:46.274+01:00  INFO 20576 --- [Safar_Morocco] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-01-15T01:10:46.302+01:00  INFO 20576 --- [Safar_Morocco] [      Thread-21] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-01-15T01:10:46.302+01:00  INFO 20576 --- [Safar_Morocco] [      Thread-21] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Shutdown initiated...
+2026-01-15T01:10:46.317+01:00  INFO 20576 --- [Safar_Morocco] [      Thread-21] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Shutdown completed.
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v4.0.1)
+
+2026-01-15T01:10:46.440+01:00  INFO 20576 --- [Safar_Morocco] [  restartedMain] m.safar.morocco.SafarMoroccoApplication  : Starting SafarMoroccoApplication using Java 17.0.12 with PID 20576 (D:\Safar_Morocco\Safar_Morocco\target\classes started by AS in D:\Safar_Morocco\Safar_Morocco)
+2026-01-15T01:10:46.440+01:00  INFO 20576 --- [Safar_Morocco] [  restartedMain] m.safar.morocco.SafarMoroccoApplication  : No active profile set, falling back to 1 default profile: "default"
+2026-01-15T01:10:46.918+01:00  INFO 20576 --- [Safar_Morocco] [  restartedMain] o.s.b.f.s.DefaultListableBeanFactory     : Overriding bean definition for bean 'jpaAuditingHandler' with a different definition: replacing [Root bean: class=org.springframework.data.auditing.AuditingHandler; scope=; abstract=false; lazyInit=null; autowireMode=2; dependencyCheck=0; autowireCandidate=true; primary=false; fallback=false; factoryBeanName=null; factoryMethodName=from; initMethodNames=null; destroyMethodNames=null] with [Root bean: class=org.springframework.data.auditing.AuditingHandler; scope=; abstract=false; lazyInit=null; autowireMode=2; dependencyCheck=0; autowireCandidate=true; primary=false; fallback=false; factoryBeanName=null; factoryMethodName=from; initMethodNames=null; destroyMethodNames=null]
+2026-01-15T01:10:46.926+01:00  INFO 20576 --- [Safar_Morocco] [  restartedMain] o.s.b.f.s.DefaultListableBeanFactory     : Overriding bean definition for bean 'org.springframework.data.jpa.domain.support.AuditingEntityListener' with an equivalent definition: replacing [Root bean: class=org.springframework.data.jpa.domain.support.AuditingEntityListener; scope=; abstract=false; lazyInit=null; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; fallback=false; factoryBeanName=null; factoryMethodName=null; initMethodNames=null; destroyMethodNames=null] with [Root bean: class=org.springframework.data.jpa.domain.support.AuditingEntityListener; scope=; abstract=false; lazyInit=null; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; fallback=false; factoryBeanName=null; factoryMethodName=null; initMethodNames=null; destroyMethodNames=null]
+2026-01-15T01:10:46.927+01:00  INFO 20576 --- [Safar_Morocco] [  restartedMain] o.s.b.f.s.DefaultListableBeanFactory     : Overriding bean definition for bean 'org.springframework.data.jpa.domain.support.AuditingBeanFactoryPostProcessor' with an equivalent definition: replacing [Root bean: class=org.springframework.data.jpa.domain.support.AuditingBeanFactoryPostProcessor; scope=; abstract=false; lazyInit=null; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; fallback=false; factoryBeanName=null; factoryMethodName=null; initMethodNames=null; destroyMethodNames=null] with [Root bean: class=org.springframework.data.jpa.domain.support.AuditingBeanFactoryPostProcessor; scope=; abstract=false; lazyInit=null; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; fallback=false; factoryBeanName=null; factoryMethodName=null; initMethodNames=null; destroyMethodNames=null]
+2026-01-15T01:10:47.019+01:00  INFO 20576 --- [Safar_Morocco] [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-01-15T01:10:47.134+01:00  INFO 20576 --- [Safar_Morocco] [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 113 ms. Found 9 JPA repository interfaces.
+2026-01-15T01:10:47.438+01:00  INFO 20576 --- [Safar_Morocco] [  restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 9004 (http)
+2026-01-15T01:10:47.439+01:00  INFO 20576 --- [Safar_Morocco] [  restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-01-15T01:10:47.439+01:00  INFO 20576 --- [Safar_Morocco] [  restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-01-15T01:10:47.518+01:00  INFO 20576 --- [Safar_Morocco] [  restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 1071 ms
+2026-01-15T01:10:47.609+01:00  INFO 20576 --- [Safar_Morocco] [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Starting...
+2026-01-15T01:10:47.781+01:00  INFO 20576 --- [Safar_Morocco] [  restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-7 - Added connection com.mysql.cj.jdbc.ConnectionImpl@697fd17d
+2026-01-15T01:10:47.781+01:00  INFO 20576 --- [Safar_Morocco] [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Start completed.
+2026-01-15T01:10:47.944+01:00  INFO 20576 --- [Safar_Morocco] [  restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-01-15T01:10:48.189+01:00  INFO 20576 --- [Safar_Morocco] [  restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-01-15T01:10:48.197+01:00  WARN 20576 --- [Safar_Morocco] [  restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-01-15T01:10:48.199+01:00  INFO 20576 --- [Safar_Morocco] [  restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/safar_morocco?createDatabaseIfNotExist=true&useSSL=false&serverTimezone=UTC]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.44
+	Default catalog/schema: safar_morocco/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-01-15T01:10:48.977+01:00  INFO 20576 --- [Safar_Morocco] [  restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-01-15T01:10:49.251+01:00 DEBUG 20576 --- [Safar_Morocco] [  restartedMain] org.hibernate.SQL                        : 
+    alter table audit_logs 
+       modify column status enum ('ERROR','FAILURE','SUCCESS') not null
+Hibernate: 
+    alter table audit_logs 
+       modify column status enum ('ERROR','FAILURE','SUCCESS') not null
+2026-01-15T01:10:49.303+01:00 DEBUG 20576 --- [Safar_Morocco] [  restartedMain] org.hibernate.SQL                        : 
+    alter table utilisateurs 
+       modify column role enum ('ADMIN','MODERATOR','USER') not null
+Hibernate: 
+    alter table utilisateurs 
+       modify column role enum ('ADMIN','MODERATOR','USER') not null
+2026-01-15T01:10:49.491+01:00  INFO 20576 --- [Safar_Morocco] [  restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-01-15T01:10:49.959+01:00  INFO 20576 --- [Safar_Morocco] [  restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2026-01-15T01:10:50.342+01:00  INFO 20576 --- [Safar_Morocco] [  restartedMain] ma.safar.morocco.config.AsyncConfig      : Async TaskExecutor configured: corePoolSize=2, maxPoolSize=5
+2026-01-15T01:10:50.519+01:00  WARN 20576 --- [Safar_Morocco] [  restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-01-15T01:10:51.034+01:00 DEBUG 20576 --- [Safar_Morocco] [  restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, CorsFilter, LogoutFilter, OAuth2AuthorizationRequestRedirectFilter, OAuth2LoginAuthenticationFilter, JwtAuthenticationFilter, DefaultResourcesFilter, DefaultLoginPageGeneratingFilter, DefaultLogoutPageGeneratingFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, SessionManagementFilter, ExceptionTranslationFilter, AuthorizationFilter
+2026-01-15T01:10:51.140+01:00  INFO 20576 --- [Safar_Morocco] [  restartedMain] o.s.b.w.a.WelcomePageHandlerMapping      : Adding welcome page template: index
+2026-01-15T01:10:51.577+01:00  INFO 20576 --- [Safar_Morocco] [  restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 9004 (http) with context path '/'
+2026-01-15T01:10:51.584+01:00  INFO 20576 --- [Safar_Morocco] [  restartedMain] m.safar.morocco.SafarMoroccoApplication  : Started SafarMoroccoApplication in 5.195 seconds (process running for 369.821)
+2026-01-15T01:10:51.584+01:00  INFO 20576 --- [Safar_Morocco] [  restartedMain] m.safar.morocco.config.DataInitializer   : Initializing default users...
+2026-01-15T01:10:51.640+01:00 DEBUG 20576 --- [Safar_Morocco] [  restartedMain] org.hibernate.SQL                        : 
+    /* SELECT
+        u 
+    FROM
+        Utilisateur u 
+    WHERE
+        u.email = :email */ select
+            u1_0.id,
+            u1_0.actif,
+            u1_0.compte_bloquer,
+            u1_0.date_inscription,
+            u1_0.date_modification,
+            u1_0.description,
+            u1_0.email,
+            u1_0.langue,
+            u1_0.mot_de_passe_hache,
+            u1_0.nom,
+            u1_0.photo_url,
+            u1_0.preferences,
+            u1_0.provider,
+            u1_0.provider_id,
+            u1_0.role,
+            u1_0.telephone 
+        from
+            utilisateurs u1_0 
+        where
+            u1_0.email=?
+Hibernate: 
+    /* SELECT
+        u 
+    FROM
+        Utilisateur u 
+    WHERE
+        u.email = :email */ select
+            u1_0.id,
+            u1_0.actif,
+            u1_0.compte_bloquer,
+            u1_0.date_inscription,
+            u1_0.date_modification,
+            u1_0.description,
+            u1_0.email,
+            u1_0.langue,
+            u1_0.mot_de_passe_hache,
+            u1_0.nom,
+            u1_0.photo_url,
+            u1_0.preferences,
+            u1_0.provider,
+            u1_0.provider_id,
+            u1_0.role,
+            u1_0.telephone 
+        from
+            utilisateurs u1_0 
+        where
+            u1_0.email=?
+2026-01-15T01:10:51.659+01:00 DEBUG 20576 --- [Safar_Morocco] [  restartedMain] org.hibernate.SQL                        : 
+    /* SELECT
+        t 
+    FROM
+        TwoFactorAuth t 
+    WHERE
+        t.utilisateur = :utilisateur */ select
+            tfa1_0.id,
+            tfa1_0.backup_codes,
+            tfa1_0.confirmed,
+            tfa1_0.created_at,
+            tfa1_0.enabled,
+            tfa1_0.failed_attempts,
+            tfa1_0.last_used_at,
+            tfa1_0.locked,
+            tfa1_0.qr_code_url,
+            tfa1_0.secret_key,
+            tfa1_0.utilisateur_id 
+        from
+            two_factor_auth tfa1_0 
+        where
+            tfa1_0.utilisateur_id=?
+Hibernate: 
+    /* SELECT
+        t 
+    FROM
+        TwoFactorAuth t 
+    WHERE
+        t.utilisateur = :utilisateur */ select
+            tfa1_0.id,
+            tfa1_0.backup_codes,
+            tfa1_0.confirmed,
+            tfa1_0.created_at,
+            tfa1_0.enabled,
+            tfa1_0.failed_attempts,
+            tfa1_0.last_used_at,
+            tfa1_0.locked,
+            tfa1_0.qr_code_url,
+            tfa1_0.secret_key,
+            tfa1_0.utilisateur_id 
+        from
+            two_factor_auth tfa1_0 
+        where
+            tfa1_0.utilisateur_id=?
+2026-01-15T01:10:51.670+01:00 DEBUG 20576 --- [Safar_Morocco] [  restartedMain] org.hibernate.SQL                        : 
+    select
+        u1_0.id,
+        u1_0.actif,
+        u1_0.compte_bloquer,
+        u1_0.date_inscription,
+        u1_0.date_modification,
+        u1_0.description,
+        u1_0.email,
+        u1_0.langue,
+        u1_0.mot_de_passe_hache,
+        u1_0.nom,
+        u1_0.photo_url,
+        u1_0.preferences,
+        u1_0.provider,
+        u1_0.provider_id,
+        u1_0.role,
+        u1_0.telephone 
+    from
+        utilisateurs u1_0 
+    where
+        u1_0.id=?
+Hibernate: 
+    select
+        u1_0.id,
+        u1_0.actif,
+        u1_0.compte_bloquer,
+        u1_0.date_inscription,
+        u1_0.date_modification,
+        u1_0.description,
+        u1_0.email,
+        u1_0.langue,
+        u1_0.mot_de_passe_hache,
+        u1_0.nom,
+        u1_0.photo_url,
+        u1_0.preferences,
+        u1_0.provider,
+        u1_0.provider_id,
+        u1_0.role,
+        u1_0.telephone 
+    from
+        utilisateurs u1_0 
+    where
+        u1_0.id=?
+2026-01-15T01:10:51.673+01:00 DEBUG 20576 --- [Safar_Morocco] [  restartedMain] org.hibernate.SQL                        : 
+    select
+        a1_0.utilisateur_id,
+        a1_0.id,
+        a1_0.commentaire,
+        a1_0.date_publication,
+        a1_0.destination_id,
+        a1_0.note 
+    from
+        avis a1_0 
+    where
+        a1_0.utilisateur_id=?
+Hibernate: 
+    select
+        a1_0.utilisateur_id,
+        a1_0.id,
+        a1_0.commentaire,
+        a1_0.date_publication,
+        a1_0.destination_id,
+        a1_0.note 
+    from
+        avis a1_0 
+    where
+        a1_0.utilisateur_id=?
+2026-01-15T01:10:51.681+01:00 DEBUG 20576 --- [Safar_Morocco] [  restartedMain] org.hibernate.SQL                        : 
+    select
+        i1_0.utilisateur_id,
+        i1_0.id,
+        i1_0.date_creation,
+        i1_0.duree_estimee,
+        i1_0.nom 
+    from
+        itineraires i1_0 
+    where
+        i1_0.utilisateur_id=?
+Hibernate: 
+    select
+        i1_0.utilisateur_id,
+        i1_0.id,
+        i1_0.date_creation,
+        i1_0.duree_estimee,
+        i1_0.nom 
+    from
+        itineraires i1_0 
+    where
+        i1_0.utilisateur_id=?
+2026-01-15T01:10:51.684+01:00 DEBUG 20576 --- [Safar_Morocco] [  restartedMain] org.hibernate.SQL                        : 
+    /* delete 
+    for
+        ma.safar.morocco.user.entity.Utilisateur */delete 
+    from
+        utilisateurs 
+    where
+        id=?
+Hibernate: 
+    /* delete 
+    for
+        ma.safar.morocco.user.entity.Utilisateur */delete 
+    from
+        utilisateurs 
+    where
+        id=?
+2026-01-15T01:10:51.739+01:00  INFO 20576 --- [Safar_Morocco] [  restartedMain] m.safar.morocco.config.DataInitializer   : Existing admin user deleted for recreation: admin@safar-morocco.com
+2026-01-15T01:10:51.875+01:00 DEBUG 20576 --- [Safar_Morocco] [  restartedMain] org.hibernate.SQL                        : 
+    /* insert 
+    for
+        ma.safar.morocco.user.entity.Utilisateur
+        */insert 
+    into
+        utilisateurs (actif, compte_bloquer, date_inscription, date_modification, description, email, langue, mot_de_passe_hache, nom, photo_url, preferences, provider, provider_id, role, telephone) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+Hibernate: 
+    /* insert 
+    for
+        ma.safar.morocco.user.entity.Utilisateur
+        */insert 
+    into
+        utilisateurs (actif, compte_bloquer, date_inscription, date_modification, description, email, langue, mot_de_passe_hache, nom, photo_url, preferences, provider, provider_id, role, telephone) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2026-01-15T01:10:51.891+01:00  INFO 20576 --- [Safar_Morocco] [  restartedMain] m.safar.morocco.config.DataInitializer   : Admin user created successfully: admin@safar-morocco.com
+2026-01-15T01:10:51.891+01:00 DEBUG 20576 --- [Safar_Morocco] [  restartedMain] org.hibernate.SQL                        : 
+    /* SELECT
+        u 
+    FROM
+        Utilisateur u 
+    WHERE
+        u.email = :email */ select
+            u1_0.id,
+            u1_0.actif,
+            u1_0.compte_bloquer,
+            u1_0.date_inscription,
+            u1_0.date_modification,
+            u1_0.description,
+            u1_0.email,
+            u1_0.langue,
+            u1_0.mot_de_passe_hache,
+            u1_0.nom,
+            u1_0.photo_url,
+            u1_0.preferences,
+            u1_0.provider,
+            u1_0.provider_id,
+            u1_0.role,
+            u1_0.telephone 
+        from
+            utilisateurs u1_0 
+        where
+            u1_0.email=?
+Hibernate: 
+    /* SELECT
+        u 
+    FROM
+        Utilisateur u 
+    WHERE
+        u.email = :email */ select
+            u1_0.id,
+            u1_0.actif,
+            u1_0.compte_bloquer,
+            u1_0.date_inscription,
+            u1_0.date_modification,
+            u1_0.description,
+            u1_0.email,
+            u1_0.langue,
+            u1_0.mot_de_passe_hache,
+            u1_0.nom,
+            u1_0.photo_url,
+            u1_0.preferences,
+            u1_0.provider,
+            u1_0.provider_id,
+            u1_0.role,
+            u1_0.telephone 
+        from
+            utilisateurs u1_0 
+        where
+            u1_0.email=?
+2026-01-15T01:10:51.894+01:00 DEBUG 20576 --- [Safar_Morocco] [  restartedMain] org.hibernate.SQL                        : 
+    /* SELECT
+        t 
+    FROM
+        TwoFactorAuth t 
+    WHERE
+        t.utilisateur = :utilisateur */ select
+            tfa1_0.id,
+            tfa1_0.backup_codes,
+            tfa1_0.confirmed,
+            tfa1_0.created_at,
+            tfa1_0.enabled,
+            tfa1_0.failed_attempts,
+            tfa1_0.last_used_at,
+            tfa1_0.locked,
+            tfa1_0.qr_code_url,
+            tfa1_0.secret_key,
+            tfa1_0.utilisateur_id 
+        from
+            two_factor_auth tfa1_0 
+        where
+            tfa1_0.utilisateur_id=?
+Hibernate: 
+    /* SELECT
+        t 
+    FROM
+        TwoFactorAuth t 
+    WHERE
+        t.utilisateur = :utilisateur */ select
+            tfa1_0.id,
+            tfa1_0.backup_codes,
+            tfa1_0.confirmed,
+            tfa1_0.created_at,
+            tfa1_0.enabled,
+            tfa1_0.failed_attempts,
+            tfa1_0.last_used_at,
+            tfa1_0.locked,
+            tfa1_0.qr_code_url,
+            tfa1_0.secret_key,
+            tfa1_0.utilisateur_id 
+        from
+            two_factor_auth tfa1_0 
+        where
+            tfa1_0.utilisateur_id=?
+2026-01-15T01:10:51.904+01:00 DEBUG 20576 --- [Safar_Morocco] [  restartedMain] org.hibernate.SQL                        : 
+    select
+        u1_0.id,
+        u1_0.actif,
+        u1_0.compte_bloquer,
+        u1_0.date_inscription,
+        u1_0.date_modification,
+        u1_0.description,
+        u1_0.email,
+        u1_0.langue,
+        u1_0.mot_de_passe_hache,
+        u1_0.nom,
+        u1_0.photo_url,
+        u1_0.preferences,
+        u1_0.provider,
+        u1_0.provider_id,
+        u1_0.role,
+        u1_0.telephone 
+    from
+        utilisateurs u1_0 
+    where
+        u1_0.id=?
+Hibernate: 
+    select
+        u1_0.id,
+        u1_0.actif,
+        u1_0.compte_bloquer,
+        u1_0.date_inscription,
+        u1_0.date_modification,
+        u1_0.description,
+        u1_0.email,
+        u1_0.langue,
+        u1_0.mot_de_passe_hache,
+        u1_0.nom,
+        u1_0.photo_url,
+        u1_0.preferences,
+        u1_0.provider,
+        u1_0.provider_id,
+        u1_0.role,
+        u1_0.telephone 
+    from
+        utilisateurs u1_0 
+    where
+        u1_0.id=?
+2026-01-15T01:10:51.911+01:00 DEBUG 20576 --- [Safar_Morocco] [  restartedMain] org.hibernate.SQL                        : 
+    select
+        a1_0.utilisateur_id,
+        a1_0.id,
+        a1_0.commentaire,
+        a1_0.date_publication,
+        a1_0.destination_id,
+        a1_0.note 
+    from
+        avis a1_0 
+    where
+        a1_0.utilisateur_id=?
+Hibernate: 
+    select
+        a1_0.utilisateur_id,
+        a1_0.id,
+        a1_0.commentaire,
+        a1_0.date_publication,
+        a1_0.destination_id,
+        a1_0.note 
+    from
+        avis a1_0 
+    where
+        a1_0.utilisateur_id=?
+2026-01-15T01:10:51.912+01:00 DEBUG 20576 --- [Safar_Morocco] [  restartedMain] org.hibernate.SQL                        : 
+    select
+        i1_0.utilisateur_id,
+        i1_0.id,
+        i1_0.date_creation,
+        i1_0.duree_estimee,
+        i1_0.nom 
+    from
+        itineraires i1_0 
+    where
+        i1_0.utilisateur_id=?
+Hibernate: 
+    select
+        i1_0.utilisateur_id,
+        i1_0.id,
+        i1_0.date_creation,
+        i1_0.duree_estimee,
+        i1_0.nom 
+    from
+        itineraires i1_0 
+    where
+        i1_0.utilisateur_id=?
+2026-01-15T01:10:51.919+01:00 DEBUG 20576 --- [Safar_Morocco] [  restartedMain] org.hibernate.SQL                        : 
+    /* delete 
+    for
+        ma.safar.morocco.user.entity.Utilisateur */delete 
+    from
+        utilisateurs 
+    where
+        id=?
+Hibernate: 
+    /* delete 
+    for
+        ma.safar.morocco.user.entity.Utilisateur */delete 
+    from
+        utilisateurs 
+    where
+        id=?
+2026-01-15T01:10:51.927+01:00  INFO 20576 --- [Safar_Morocco] [  restartedMain] m.safar.morocco.config.DataInitializer   : Existing default user deleted for recreation: user@safar-morocco.com
+2026-01-15T01:10:52.052+01:00 DEBUG 20576 --- [Safar_Morocco] [  restartedMain] org.hibernate.SQL                        : 
+    /* insert 
+    for
+        ma.safar.morocco.user.entity.Utilisateur
+        */insert 
+    into
+        utilisateurs (actif, compte_bloquer, date_inscription, date_modification, description, email, langue, mot_de_passe_hache, nom, photo_url, preferences, provider, provider_id, role, telephone) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+Hibernate: 
+    /* insert 
+    for
+        ma.safar.morocco.user.entity.Utilisateur
+        */insert 
+    into
+        utilisateurs (actif, compte_bloquer, date_inscription, date_modification, description, email, langue, mot_de_passe_hache, nom, photo_url, preferences, provider, provider_id, role, telephone) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2026-01-15T01:10:52.070+01:00  INFO 20576 --- [Safar_Morocco] [  restartedMain] m.safar.morocco.config.DataInitializer   : Default user created successfully: user@safar-morocco.com
+2026-01-15T01:10:52.070+01:00  INFO 20576 --- [Safar_Morocco] [  restartedMain] m.safar.morocco.config.DataInitializer   : Data initialization completed successfully
+2026-01-15T01:10:52.070+01:00  INFO 20576 --- [Safar_Morocco] [  restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation delta:
+
+
+==========================
+CONDITION EVALUATION DELTA
+==========================
+
+
+Positive matches:
+-----------------
+
+    None
+
+
+Negative matches:
+-----------------
+
+   OAuth2ClientWebSecurityAutoConfiguration.OAuth2SecurityFilterChainConfiguration:
+      Did not match:
+         - AllNestedConditions 1 matched 1 did not; NestedCondition on DefaultWebSecurityCondition.Beans @ConditionalOnMissingBean (types: org.springframework.security.web.SecurityFilterChain; SearchStrategy: all) found beans of type 'org.springframework.security.web.SecurityFilterChain' securityFilterChain; NestedCondition on DefaultWebSecurityCondition.Classes @ConditionalOnClass found required classes 'org.springframework.security.web.SecurityFilterChain', 'org.springframework.security.config.annotation.web.builders.HttpSecurity' (DefaultWebSecurityCondition)
+
+   ServletWebSecurityAutoConfiguration.EnableWebSecurityConfiguration:
+      Did not match:
+         - @ConditionalOnMissingBean (names: springSecurityFilterChain; SearchStrategy: all) found beans named springSecurityFilterChain (OnBeanCondition)
+      Matched:
+         - @ConditionalOnClass found required class 'org.springframework.security.config.annotation.web.configuration.EnableWebSecurity' (OnClassCondition)
+
+   TaskExecutorConfigurations.TaskExecutorConfiguration:
+      Did not match:
+         - AnyNestedCondition 0 matched 2 did not; NestedCondition on TaskExecutorConfigurations.OnExecutorCondition.ModelCondition @ConditionalOnProperty (spring.task.execution.mode=force) did not find property 'spring.task.execution.mode'; NestedCondition on TaskExecutorConfigurations.OnExecutorCondition.ExecutorBeanCondition @ConditionalOnMissingBean (types: java.util.concurrent.Executor; SearchStrategy: all) found beans of type 'java.util.concurrent.Executor' taskExecutor (TaskExecutorConfigurations.OnExecutorCondition)
+
+
+Exclusions:
+-----------
+
+    None
+
+
+Unconditional classes:
+----------------------
+
+    None
+
+
+
+2026-01-15T01:23:34.589+01:00  INFO 20576 --- [Safar_Morocco] [nio-9004-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-01-15T01:23:34.589+01:00  INFO 20576 --- [Safar_Morocco] [nio-9004-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-01-15T01:23:34.591+01:00  INFO 20576 --- [Safar_Morocco] [nio-9004-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2026-01-15T01:23:34.596+01:00 DEBUG 20576 --- [Safar_Morocco] [nio-9004-exec-2] o.s.security.web.FilterChainProxy        : Securing POST /api/auth/login
+2026-01-15T01:23:34.936+01:00 DEBUG 20576 --- [Safar_Morocco] [nio-9004-exec-2] org.hibernate.SQL                        : 
+    /* SELECT
+        u 
+    FROM
+        Utilisateur u 
+    WHERE
+        u.email = :email */ select
+            u1_0.id,
+            u1_0.actif,
+            u1_0.compte_bloquer,
+            u1_0.date_inscription,
+            u1_0.date_modification,
+            u1_0.description,
+            u1_0.email,
+            u1_0.langue,
+            u1_0.mot_de_passe_hache,
+            u1_0.nom,
+            u1_0.photo_url,
+            u1_0.preferences,
+            u1_0.provider,
+            u1_0.provider_id,
+            u1_0.role,
+            u1_0.telephone 
+        from
+            utilisateurs u1_0 
+        where
+            u1_0.email=?
+Hibernate: 
+    /* SELECT
+        u 
+    FROM
+        Utilisateur u 
+    WHERE
+        u.email = :email */ select
+            u1_0.id,
+            u1_0.actif,
+            u1_0.compte_bloquer,
+            u1_0.date_inscription,
+            u1_0.date_modification,
+            u1_0.description,
+            u1_0.email,
+            u1_0.langue,
+            u1_0.mot_de_passe_hache,
+            u1_0.nom,
+            u1_0.photo_url,
+            u1_0.preferences,
+            u1_0.provider,
+            u1_0.provider_id,
+            u1_0.role,
+            u1_0.telephone 
+        from
+            utilisateurs u1_0 
+        where
+            u1_0.email=?
+2026-01-15T01:23:34.950+01:00 DEBUG 20576 --- [Safar_Morocco] [nio-9004-exec-2] o.s.security.web.FilterChainProxy        : Secured POST /api/auth/login
+2026-01-15T01:23:34.967+01:00  WARN 20576 --- [Safar_Morocco] [nio-9004-exec-2] m.s.m.config.GlobalExceptionHandler      : Validation error: {motDePasse=Le mot de passe est obligatoire}
+2026-01-15T01:23:34.967+01:00  WARN 20576 --- [Safar_Morocco] [nio-9004-exec-2] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<ma.safar.morocco.auth.dto.AuthResponse> ma.safar.morocco.auth.controller.AuthController.login(ma.safar.morocco.auth.dto.LoginRequest): [Field error in object 'loginRequest' on field 'motDePasse': rejected value [null]; codes [NotBlank.loginRequest.motDePasse,NotBlank.motDePasse,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [loginRequest.motDePasse,motDePasse]; arguments []; default message [motDePasse]]; default message [Le mot de passe est obligatoire]] ]
+2026-01-15T01:24:53.641+01:00  INFO 20576 --- [Safar_Morocco] [   File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 4 class path changes (0 additions, 4 deletions, 0 modifications)
+2026-01-15T01:24:53.643+01:00  INFO 20576 --- [Safar_Morocco] [      Thread-25] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-01-15T01:24:54.660+01:00  INFO 20576 --- [Safar_Morocco] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-01-15T01:24:54.664+01:00  INFO 20576 --- [Safar_Morocco] [      Thread-25] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-01-15T01:24:54.666+01:00  INFO 20576 --- [Safar_Morocco] [      Thread-25] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Shutdown initiated...
+2026-01-15T01:24:54.676+01:00  INFO 20576 --- [Safar_Morocco] [      Thread-25] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Shutdown completed.
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v4.0.1)
+
+2026-01-15T01:24:54.814+01:00  INFO 20576 --- [Safar_Morocco] [  restartedMain] m.safar.morocco.SafarMoroccoApplication  : Starting SafarMoroccoApplication using Java 17.0.12 with PID 20576 (D:\Safar_Morocco\Safar_Morocco\target\classes started by AS in D:\Safar_Morocco\Safar_Morocco)
+2026-01-15T01:24:54.815+01:00  INFO 20576 --- [Safar_Morocco] [  restartedMain] m.safar.morocco.SafarMoroccoApplication  : No active profile set, falling back to 1 default profile: "default"
+2026-01-15T01:24:55.305+01:00  INFO 20576 --- [Safar_Morocco] [  restartedMain] o.s.b.f.s.DefaultListableBeanFactory     : Overriding bean definition for bean 'jpaAuditingHandler' with a different definition: replacing [Root bean: class=org.springframework.data.auditing.AuditingHandler; scope=; abstract=false; lazyInit=null; autowireMode=2; dependencyCheck=0; autowireCandidate=true; primary=false; fallback=false; factoryBeanName=null; factoryMethodName=from; initMethodNames=null; destroyMethodNames=null] with [Root bean: class=org.springframework.data.auditing.AuditingHandler; scope=; abstract=false; lazyInit=null; autowireMode=2; dependencyCheck=0; autowireCandidate=true; primary=false; fallback=false; factoryBeanName=null; factoryMethodName=from; initMethodNames=null; destroyMethodNames=null]
+2026-01-15T01:24:55.306+01:00  INFO 20576 --- [Safar_Morocco] [  restartedMain] o.s.b.f.s.DefaultListableBeanFactory     : Overriding bean definition for bean 'org.springframework.data.jpa.domain.support.AuditingEntityListener' with an equivalent definition: replacing [Root bean: class=org.springframework.data.jpa.domain.support.AuditingEntityListener; scope=; abstract=false; lazyInit=null; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; fallback=false; factoryBeanName=null; factoryMethodName=null; initMethodNames=null; destroyMethodNames=null] with [Root bean: class=org.springframework.data.jpa.domain.support.AuditingEntityListener; scope=; abstract=false; lazyInit=null; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; fallback=false; factoryBeanName=null; factoryMethodName=null; initMethodNames=null; destroyMethodNames=null]
+2026-01-15T01:24:55.307+01:00  INFO 20576 --- [Safar_Morocco] [  restartedMain] o.s.b.f.s.DefaultListableBeanFactory     : Overriding bean definition for bean 'org.springframework.data.jpa.domain.support.AuditingBeanFactoryPostProcessor' with an equivalent definition: replacing [Root bean: class=org.springframework.data.jpa.domain.support.AuditingBeanFactoryPostProcessor; scope=; abstract=false; lazyInit=null; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; fallback=false; factoryBeanName=null; factoryMethodName=null; initMethodNames=null; destroyMethodNames=null] with [Root bean: class=org.springframework.data.jpa.domain.support.AuditingBeanFactoryPostProcessor; scope=; abstract=false; lazyInit=null; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; fallback=false; factoryBeanName=null; factoryMethodName=null; initMethodNames=null; destroyMethodNames=null]
+2026-01-15T01:24:55.382+01:00  INFO 20576 --- [Safar_Morocco] [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-01-15T01:24:55.436+01:00  WARN 20576 --- [Safar_Morocco] [  restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: java.lang.NoClassDefFoundError: ma/safar/morocco/user/entity/Utilisateur
+2026-01-15T01:24:55.443+01:00  INFO 20576 --- [Safar_Morocco] [  restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-01-15T01:24:55.474+01:00 ERROR 20576 --- [Safar_Morocco] [  restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+java.lang.NoClassDefFoundError: ma/safar/morocco/user/entity/Utilisateur
+	at java.base/java.lang.Class.getDeclaredMethods0(Native Method) ~[na:na]
+	at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3402) ~[na:na]
+	at java.base/java.lang.Class.privateGetPublicMethods(Class.java:3427) ~[na:na]
+	at java.base/java.lang.Class.getMethods(Class.java:2019) ~[na:na]
+	at org.springframework.data.core.ReactiveWrappers.usesReactiveType(ReactiveWrappers.java:144) ~[spring-data-commons-4.0.1.jar:4.0.1]
+	at org.springframework.data.repository.core.support.AbstractRepositoryMetadata.isReactiveRepository(AbstractRepositoryMetadata.java:140) ~[spring-data-commons-4.0.1.jar:4.0.1]
+	at org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport.useRepositoryConfiguration(RepositoryConfigurationExtensionSupport.java:344) ~[spring-data-commons-4.0.1.jar:4.0.1]
+	at org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport.getRepositoryConfigurations(RepositoryConfigurationExtensionSupport.java:98) ~[spring-data-commons-4.0.1.jar:4.0.1]
+	at org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:170) ~[spring-data-commons-4.0.1.jar:4.0.1]
+	at org.springframework.boot.autoconfigure.data.AbstractRepositoryConfigurationSourceSupport.registerBeanDefinitions(AbstractRepositoryConfigurationSourceSupport.java:67) ~[spring-boot-autoconfigure-4.0.1.jar:4.0.1]
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.lambda$loadBeanDefinitionsFromImportBeanDefinitionRegistrars$0(ConfigurationClassBeanDefinitionReader.java:422) ~[spring-context-7.0.2.jar:7.0.2]
+	at java.base/java.util.LinkedHashMap.forEach(LinkedHashMap.java:721) ~[na:na]
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsFromImportBeanDefinitionRegistrars(ConfigurationClassBeanDefinitionReader.java:421) ~[spring-context-7.0.2.jar:7.0.2]
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsForConfigurationClass(ConfigurationClassBeanDefinitionReader.java:152) ~[spring-context-7.0.2.jar:7.0.2]
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitions(ConfigurationClassBeanDefinitionReader.java:124) ~[spring-context-7.0.2.jar:7.0.2]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:458) ~[spring-context-7.0.2.jar:7.0.2]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:310) ~[spring-context-7.0.2.jar:7.0.2]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:349) ~[spring-context-7.0.2.jar:7.0.2]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:118) ~[spring-context-7.0.2.jar:7.0.2]
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:794) ~[spring-context-7.0.2.jar:7.0.2]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:602) ~[spring-context-7.0.2.jar:7.0.2]
+	at org.springframework.boot.web.server.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143) ~[spring-boot-web-server-4.0.1.jar:4.0.1]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:756) ~[spring-boot-4.0.1.jar:4.0.1]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:445) ~[spring-boot-4.0.1.jar:4.0.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:321) ~[spring-boot-4.0.1.jar:4.0.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1365) ~[spring-boot-4.0.1.jar:4.0.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354) ~[spring-boot-4.0.1.jar:4.0.1]
+	at ma.safar.morocco.SafarMoroccoApplication.main(SafarMoroccoApplication.java:11) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:52) ~[spring-boot-devtools-4.0.1.jar:4.0.1]
+Caused by: java.lang.ClassNotFoundException: ma.safar.morocco.user.entity.Utilisateur
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641) ~[na:na]
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188) ~[na:na]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525) ~[na:na]
+	at java.base/java.lang.Class.forName0(Native Method) ~[na:na]
+	at java.base/java.lang.Class.forName(Class.java:467) ~[na:na]
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:123) ~[spring-boot-devtools-4.0.1.jar:4.0.1]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525) ~[na:na]
+	... 33 common frames omitted
+
+Exception in thread "restartedMain" java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:52)
+Caused by: java.lang.IllegalStateException: java.lang.NoClassDefFoundError: ma/safar/morocco/user/entity/Utilisateur
+	at org.springframework.boot.SpringApplication.handleRunFailure(SpringApplication.java:827)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:331)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1365)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354)
+	at ma.safar.morocco.SafarMoroccoApplication.main(SafarMoroccoApplication.java:11)
+	... 5 more
+Caused by: java.lang.NoClassDefFoundError: ma/safar/morocco/user/entity/Utilisateur
+	at java.base/java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3402)
+	at java.base/java.lang.Class.privateGetPublicMethods(Class.java:3427)
+	at java.base/java.lang.Class.getMethods(Class.java:2019)
+	at org.springframework.data.core.ReactiveWrappers.usesReactiveType(ReactiveWrappers.java:144)
+	at org.springframework.data.repository.core.support.AbstractRepositoryMetadata.isReactiveRepository(AbstractRepositoryMetadata.java:140)
+	at org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport.useRepositoryConfiguration(RepositoryConfigurationExtensionSupport.java:344)
+	at org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport.getRepositoryConfigurations(RepositoryConfigurationExtensionSupport.java:98)
+	at org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:170)
+	at org.springframework.boot.autoconfigure.data.AbstractRepositoryConfigurationSourceSupport.registerBeanDefinitions(AbstractRepositoryConfigurationSourceSupport.java:67)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.lambda$loadBeanDefinitionsFromImportBeanDefinitionRegistrars$0(ConfigurationClassBeanDefinitionReader.java:422)
+	at java.base/java.util.LinkedHashMap.forEach(LinkedHashMap.java:721)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsFromImportBeanDefinitionRegistrars(ConfigurationClassBeanDefinitionReader.java:421)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsForConfigurationClass(ConfigurationClassBeanDefinitionReader.java:152)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitions(ConfigurationClassBeanDefinitionReader.java:124)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:458)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:310)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:349)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:118)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:794)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:602)
+	at org.springframework.boot.web.server.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:756)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:445)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:321)
+	... 8 more
+Caused by: java.lang.ClassNotFoundException: ma.safar.morocco.user.entity.Utilisateur
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:467)
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:123)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
+	... 33 more
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v4.0.1)
+
+2026-01-15T01:24:59.285+01:00  INFO 20576 --- [Safar_Morocco] [  restartedMain] m.safar.morocco.SafarMoroccoApplication  : Starting SafarMoroccoApplication using Java 17.0.12 with PID 20576 (D:\Safar_Morocco\Safar_Morocco\target\classes started by AS in D:\Safar_Morocco\Safar_Morocco)
+2026-01-15T01:24:59.286+01:00  INFO 20576 --- [Safar_Morocco] [  restartedMain] m.safar.morocco.SafarMoroccoApplication  : No active profile set, falling back to 1 default profile: "default"
+2026-01-15T01:24:59.893+01:00  INFO 20576 --- [Safar_Morocco] [  restartedMain] o.s.b.f.s.DefaultListableBeanFactory     : Overriding bean definition for bean 'jpaAuditingHandler' with a different definition: replacing [Root bean: class=org.springframework.data.auditing.AuditingHandler; scope=; abstract=false; lazyInit=null; autowireMode=2; dependencyCheck=0; autowireCandidate=true; primary=false; fallback=false; factoryBeanName=null; factoryMethodName=from; initMethodNames=null; destroyMethodNames=null] with [Root bean: class=org.springframework.data.auditing.AuditingHandler; scope=; abstract=false; lazyInit=null; autowireMode=2; dependencyCheck=0; autowireCandidate=true; primary=false; fallback=false; factoryBeanName=null; factoryMethodName=from; initMethodNames=null; destroyMethodNames=null]
+2026-01-15T01:24:59.894+01:00  INFO 20576 --- [Safar_Morocco] [  restartedMain] o.s.b.f.s.DefaultListableBeanFactory     : Overriding bean definition for bean 'org.springframework.data.jpa.domain.support.AuditingEntityListener' with an equivalent definition: replacing [Root bean: class=org.springframework.data.jpa.domain.support.AuditingEntityListener; scope=; abstract=false; lazyInit=null; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; fallback=false; factoryBeanName=null; factoryMethodName=null; initMethodNames=null; destroyMethodNames=null] with [Root bean: class=org.springframework.data.jpa.domain.support.AuditingEntityListener; scope=; abstract=false; lazyInit=null; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; fallback=false; factoryBeanName=null; factoryMethodName=null; initMethodNames=null; destroyMethodNames=null]
+2026-01-15T01:24:59.895+01:00  INFO 20576 --- [Safar_Morocco] [  restartedMain] o.s.b.f.s.DefaultListableBeanFactory     : Overriding bean definition for bean 'org.springframework.data.jpa.domain.support.AuditingBeanFactoryPostProcessor' with an equivalent definition: replacing [Root bean: class=org.springframework.data.jpa.domain.support.AuditingBeanFactoryPostProcessor; scope=; abstract=false; lazyInit=null; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; fallback=false; factoryBeanName=null; factoryMethodName=null; initMethodNames=null; destroyMethodNames=null] with [Root bean: class=org.springframework.data.jpa.domain.support.AuditingBeanFactoryPostProcessor; scope=; abstract=false; lazyInit=null; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; fallback=false; factoryBeanName=null; factoryMethodName=null; initMethodNames=null; destroyMethodNames=null]
+2026-01-15T01:25:00.018+01:00  INFO 20576 --- [Safar_Morocco] [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-01-15T01:25:00.347+01:00  INFO 20576 --- [Safar_Morocco] [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 322 ms. Found 9 JPA repository interfaces.
+2026-01-15T01:25:00.895+01:00  INFO 20576 --- [Safar_Morocco] [  restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 9004 (http)
+2026-01-15T01:25:00.899+01:00  INFO 20576 --- [Safar_Morocco] [  restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-01-15T01:25:00.900+01:00  INFO 20576 --- [Safar_Morocco] [  restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-01-15T01:25:00.995+01:00  INFO 20576 --- [Safar_Morocco] [  restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 1705 ms
+2026-01-15T01:25:01.219+01:00  INFO 20576 --- [Safar_Morocco] [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Starting...
+2026-01-15T01:25:01.248+01:00  INFO 20576 --- [Safar_Morocco] [  restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-8 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6e2cef81
+2026-01-15T01:25:01.250+01:00  INFO 20576 --- [Safar_Morocco] [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Start completed.
+2026-01-15T01:25:01.471+01:00  INFO 20576 --- [Safar_Morocco] [  restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-01-15T01:25:01.687+01:00  INFO 20576 --- [Safar_Morocco] [  restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-01-15T01:25:01.695+01:00  WARN 20576 --- [Safar_Morocco] [  restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-01-15T01:25:01.697+01:00  INFO 20576 --- [Safar_Morocco] [  restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/safar_morocco?createDatabaseIfNotExist=true&useSSL=false&serverTimezone=UTC]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.44
+	Default catalog/schema: safar_morocco/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-01-15T01:25:02.418+01:00  INFO 20576 --- [Safar_Morocco] [  restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-01-15T01:25:02.563+01:00 DEBUG 20576 --- [Safar_Morocco] [  restartedMain] org.hibernate.SQL                        : 
+    alter table audit_logs 
+       modify column status enum ('ERROR','FAILURE','SUCCESS') not null
+Hibernate: 
+    alter table audit_logs 
+       modify column status enum ('ERROR','FAILURE','SUCCESS') not null
+2026-01-15T01:25:02.612+01:00 DEBUG 20576 --- [Safar_Morocco] [  restartedMain] org.hibernate.SQL                        : 
+    alter table utilisateurs 
+       modify column role enum ('ADMIN','MODERATOR','USER') not null
+Hibernate: 
+    alter table utilisateurs 
+       modify column role enum ('ADMIN','MODERATOR','USER') not null
+2026-01-15T01:25:02.812+01:00  INFO 20576 --- [Safar_Morocco] [  restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-01-15T01:25:03.530+01:00  INFO 20576 --- [Safar_Morocco] [  restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2026-01-15T01:25:04.092+01:00  INFO 20576 --- [Safar_Morocco] [  restartedMain] ma.safar.morocco.config.AsyncConfig      : Async TaskExecutor configured: corePoolSize=2, maxPoolSize=5
+2026-01-15T01:25:04.442+01:00  WARN 20576 --- [Safar_Morocco] [  restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-01-15T01:25:05.283+01:00 DEBUG 20576 --- [Safar_Morocco] [  restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, CorsFilter, LogoutFilter, OAuth2AuthorizationRequestRedirectFilter, OAuth2LoginAuthenticationFilter, JwtAuthenticationFilter, DefaultResourcesFilter, DefaultLoginPageGeneratingFilter, DefaultLogoutPageGeneratingFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, SessionManagementFilter, ExceptionTranslationFilter, AuthorizationFilter
+2026-01-15T01:25:05.432+01:00  INFO 20576 --- [Safar_Morocco] [  restartedMain] o.s.b.w.a.WelcomePageHandlerMapping      : Adding welcome page template: index
+2026-01-15T01:25:06.206+01:00  INFO 20576 --- [Safar_Morocco] [  restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 9004 (http) with context path '/'
+2026-01-15T01:25:06.212+01:00  INFO 20576 --- [Safar_Morocco] [  restartedMain] m.safar.morocco.SafarMoroccoApplication  : Started SafarMoroccoApplication in 6.975 seconds (process running for 1224.507)
+2026-01-15T01:25:06.215+01:00  INFO 20576 --- [Safar_Morocco] [  restartedMain] m.safar.morocco.config.DataInitializer   : Initializing default users...
+2026-01-15T01:25:06.297+01:00 DEBUG 20576 --- [Safar_Morocco] [  restartedMain] org.hibernate.SQL                        : 
+    /* SELECT
+        u 
+    FROM
+        Utilisateur u 
+    WHERE
+        u.email = :email */ select
+            u1_0.id,
+            u1_0.actif,
+            u1_0.compte_bloquer,
+            u1_0.date_inscription,
+            u1_0.date_modification,
+            u1_0.description,
+            u1_0.email,
+            u1_0.langue,
+            u1_0.mot_de_passe_hache,
+            u1_0.nom,
+            u1_0.photo_url,
+            u1_0.preferences,
+            u1_0.provider,
+            u1_0.provider_id,
+            u1_0.role,
+            u1_0.telephone 
+        from
+            utilisateurs u1_0 
+        where
+            u1_0.email=?
+Hibernate: 
+    /* SELECT
+        u 
+    FROM
+        Utilisateur u 
+    WHERE
+        u.email = :email */ select
+            u1_0.id,
+            u1_0.actif,
+            u1_0.compte_bloquer,
+            u1_0.date_inscription,
+            u1_0.date_modification,
+            u1_0.description,
+            u1_0.email,
+            u1_0.langue,
+            u1_0.mot_de_passe_hache,
+            u1_0.nom,
+            u1_0.photo_url,
+            u1_0.preferences,
+            u1_0.provider,
+            u1_0.provider_id,
+            u1_0.role,
+            u1_0.telephone 
+        from
+            utilisateurs u1_0 
+        where
+            u1_0.email=?
+2026-01-15T01:25:06.309+01:00 DEBUG 20576 --- [Safar_Morocco] [  restartedMain] org.hibernate.SQL                        : 
+    /* SELECT
+        t 
+    FROM
+        TwoFactorAuth t 
+    WHERE
+        t.utilisateur = :utilisateur */ select
+            tfa1_0.id,
+            tfa1_0.backup_codes,
+            tfa1_0.confirmed,
+            tfa1_0.created_at,
+            tfa1_0.enabled,
+            tfa1_0.failed_attempts,
+            tfa1_0.last_used_at,
+            tfa1_0.locked,
+            tfa1_0.qr_code_url,
+            tfa1_0.secret_key,
+            tfa1_0.utilisateur_id 
+        from
+            two_factor_auth tfa1_0 
+        where
+            tfa1_0.utilisateur_id=?
+Hibernate: 
+    /* SELECT
+        t 
+    FROM
+        TwoFactorAuth t 
+    WHERE
+        t.utilisateur = :utilisateur */ select
+            tfa1_0.id,
+            tfa1_0.backup_codes,
+            tfa1_0.confirmed,
+            tfa1_0.created_at,
+            tfa1_0.enabled,
+            tfa1_0.failed_attempts,
+            tfa1_0.last_used_at,
+            tfa1_0.locked,
+            tfa1_0.qr_code_url,
+            tfa1_0.secret_key,
+            tfa1_0.utilisateur_id 
+        from
+            two_factor_auth tfa1_0 
+        where
+            tfa1_0.utilisateur_id=?
+2026-01-15T01:25:06.321+01:00 DEBUG 20576 --- [Safar_Morocco] [  restartedMain] org.hibernate.SQL                        : 
+    select
+        u1_0.id,
+        u1_0.actif,
+        u1_0.compte_bloquer,
+        u1_0.date_inscription,
+        u1_0.date_modification,
+        u1_0.description,
+        u1_0.email,
+        u1_0.langue,
+        u1_0.mot_de_passe_hache,
+        u1_0.nom,
+        u1_0.photo_url,
+        u1_0.preferences,
+        u1_0.provider,
+        u1_0.provider_id,
+        u1_0.role,
+        u1_0.telephone 
+    from
+        utilisateurs u1_0 
+    where
+        u1_0.id=?
+Hibernate: 
+    select
+        u1_0.id,
+        u1_0.actif,
+        u1_0.compte_bloquer,
+        u1_0.date_inscription,
+        u1_0.date_modification,
+        u1_0.description,
+        u1_0.email,
+        u1_0.langue,
+        u1_0.mot_de_passe_hache,
+        u1_0.nom,
+        u1_0.photo_url,
+        u1_0.preferences,
+        u1_0.provider,
+        u1_0.provider_id,
+        u1_0.role,
+        u1_0.telephone 
+    from
+        utilisateurs u1_0 
+    where
+        u1_0.id=?
+2026-01-15T01:25:06.327+01:00 DEBUG 20576 --- [Safar_Morocco] [  restartedMain] org.hibernate.SQL                        : 
+    select
+        a1_0.utilisateur_id,
+        a1_0.id,
+        a1_0.commentaire,
+        a1_0.date_publication,
+        a1_0.destination_id,
+        a1_0.note 
+    from
+        avis a1_0 
+    where
+        a1_0.utilisateur_id=?
+Hibernate: 
+    select
+        a1_0.utilisateur_id,
+        a1_0.id,
+        a1_0.commentaire,
+        a1_0.date_publication,
+        a1_0.destination_id,
+        a1_0.note 
+    from
+        avis a1_0 
+    where
+        a1_0.utilisateur_id=?
+2026-01-15T01:25:06.337+01:00 DEBUG 20576 --- [Safar_Morocco] [  restartedMain] org.hibernate.SQL                        : 
+    select
+        i1_0.utilisateur_id,
+        i1_0.id,
+        i1_0.date_creation,
+        i1_0.duree_estimee,
+        i1_0.nom 
+    from
+        itineraires i1_0 
+    where
+        i1_0.utilisateur_id=?
+Hibernate: 
+    select
+        i1_0.utilisateur_id,
+        i1_0.id,
+        i1_0.date_creation,
+        i1_0.duree_estimee,
+        i1_0.nom 
+    from
+        itineraires i1_0 
+    where
+        i1_0.utilisateur_id=?
+2026-01-15T01:25:06.344+01:00 DEBUG 20576 --- [Safar_Morocco] [  restartedMain] org.hibernate.SQL                        : 
+    /* delete 
+    for
+        ma.safar.morocco.user.entity.Utilisateur */delete 
+    from
+        utilisateurs 
+    where
+        id=?
+Hibernate: 
+    /* delete 
+    for
+        ma.safar.morocco.user.entity.Utilisateur */delete 
+    from
+        utilisateurs 
+    where
+        id=?
+2026-01-15T01:25:06.357+01:00  INFO 20576 --- [Safar_Morocco] [  restartedMain] m.safar.morocco.config.DataInitializer   : Existing admin user deleted for recreation: admin@safar-morocco.com
+2026-01-15T01:25:06.525+01:00 DEBUG 20576 --- [Safar_Morocco] [  restartedMain] org.hibernate.SQL                        : 
+    /* insert 
+    for
+        ma.safar.morocco.user.entity.Utilisateur
+        */insert 
+    into
+        utilisateurs (actif, compte_bloquer, date_inscription, date_modification, description, email, langue, mot_de_passe_hache, nom, photo_url, preferences, provider, provider_id, role, telephone) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+Hibernate: 
+    /* insert 
+    for
+        ma.safar.morocco.user.entity.Utilisateur
+        */insert 
+    into
+        utilisateurs (actif, compte_bloquer, date_inscription, date_modification, description, email, langue, mot_de_passe_hache, nom, photo_url, preferences, provider, provider_id, role, telephone) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2026-01-15T01:25:06.542+01:00  INFO 20576 --- [Safar_Morocco] [  restartedMain] m.safar.morocco.config.DataInitializer   : Admin user created successfully: admin@safar-morocco.com
+2026-01-15T01:25:06.545+01:00 DEBUG 20576 --- [Safar_Morocco] [  restartedMain] org.hibernate.SQL                        : 
+    /* SELECT
+        u 
+    FROM
+        Utilisateur u 
+    WHERE
+        u.email = :email */ select
+            u1_0.id,
+            u1_0.actif,
+            u1_0.compte_bloquer,
+            u1_0.date_inscription,
+            u1_0.date_modification,
+            u1_0.description,
+            u1_0.email,
+            u1_0.langue,
+            u1_0.mot_de_passe_hache,
+            u1_0.nom,
+            u1_0.photo_url,
+            u1_0.preferences,
+            u1_0.provider,
+            u1_0.provider_id,
+            u1_0.role,
+            u1_0.telephone 
+        from
+            utilisateurs u1_0 
+        where
+            u1_0.email=?
+Hibernate: 
+    /* SELECT
+        u 
+    FROM
+        Utilisateur u 
+    WHERE
+        u.email = :email */ select
+            u1_0.id,
+            u1_0.actif,
+            u1_0.compte_bloquer,
+            u1_0.date_inscription,
+            u1_0.date_modification,
+            u1_0.description,
+            u1_0.email,
+            u1_0.langue,
+            u1_0.mot_de_passe_hache,
+            u1_0.nom,
+            u1_0.photo_url,
+            u1_0.preferences,
+            u1_0.provider,
+            u1_0.provider_id,
+            u1_0.role,
+            u1_0.telephone 
+        from
+            utilisateurs u1_0 
+        where
+            u1_0.email=?
+2026-01-15T01:25:06.551+01:00 DEBUG 20576 --- [Safar_Morocco] [  restartedMain] org.hibernate.SQL                        : 
+    /* SELECT
+        t 
+    FROM
+        TwoFactorAuth t 
+    WHERE
+        t.utilisateur = :utilisateur */ select
+            tfa1_0.id,
+            tfa1_0.backup_codes,
+            tfa1_0.confirmed,
+            tfa1_0.created_at,
+            tfa1_0.enabled,
+            tfa1_0.failed_attempts,
+            tfa1_0.last_used_at,
+            tfa1_0.locked,
+            tfa1_0.qr_code_url,
+            tfa1_0.secret_key,
+            tfa1_0.utilisateur_id 
+        from
+            two_factor_auth tfa1_0 
+        where
+            tfa1_0.utilisateur_id=?
+Hibernate: 
+    /* SELECT
+        t 
+    FROM
+        TwoFactorAuth t 
+    WHERE
+        t.utilisateur = :utilisateur */ select
+            tfa1_0.id,
+            tfa1_0.backup_codes,
+            tfa1_0.confirmed,
+            tfa1_0.created_at,
+            tfa1_0.enabled,
+            tfa1_0.failed_attempts,
+            tfa1_0.last_used_at,
+            tfa1_0.locked,
+            tfa1_0.qr_code_url,
+            tfa1_0.secret_key,
+            tfa1_0.utilisateur_id 
+        from
+            two_factor_auth tfa1_0 
+        where
+            tfa1_0.utilisateur_id=?
+2026-01-15T01:25:06.558+01:00 DEBUG 20576 --- [Safar_Morocco] [  restartedMain] org.hibernate.SQL                        : 
+    select
+        u1_0.id,
+        u1_0.actif,
+        u1_0.compte_bloquer,
+        u1_0.date_inscription,
+        u1_0.date_modification,
+        u1_0.description,
+        u1_0.email,
+        u1_0.langue,
+        u1_0.mot_de_passe_hache,
+        u1_0.nom,
+        u1_0.photo_url,
+        u1_0.preferences,
+        u1_0.provider,
+        u1_0.provider_id,
+        u1_0.role,
+        u1_0.telephone 
+    from
+        utilisateurs u1_0 
+    where
+        u1_0.id=?
+Hibernate: 
+    select
+        u1_0.id,
+        u1_0.actif,
+        u1_0.compte_bloquer,
+        u1_0.date_inscription,
+        u1_0.date_modification,
+        u1_0.description,
+        u1_0.email,
+        u1_0.langue,
+        u1_0.mot_de_passe_hache,
+        u1_0.nom,
+        u1_0.photo_url,
+        u1_0.preferences,
+        u1_0.provider,
+        u1_0.provider_id,
+        u1_0.role,
+        u1_0.telephone 
+    from
+        utilisateurs u1_0 
+    where
+        u1_0.id=?
+2026-01-15T01:25:06.563+01:00 DEBUG 20576 --- [Safar_Morocco] [  restartedMain] org.hibernate.SQL                        : 
+    select
+        a1_0.utilisateur_id,
+        a1_0.id,
+        a1_0.commentaire,
+        a1_0.date_publication,
+        a1_0.destination_id,
+        a1_0.note 
+    from
+        avis a1_0 
+    where
+        a1_0.utilisateur_id=?
+Hibernate: 
+    select
+        a1_0.utilisateur_id,
+        a1_0.id,
+        a1_0.commentaire,
+        a1_0.date_publication,
+        a1_0.destination_id,
+        a1_0.note 
+    from
+        avis a1_0 
+    where
+        a1_0.utilisateur_id=?
+2026-01-15T01:25:06.567+01:00 DEBUG 20576 --- [Safar_Morocco] [  restartedMain] org.hibernate.SQL                        : 
+    select
+        i1_0.utilisateur_id,
+        i1_0.id,
+        i1_0.date_creation,
+        i1_0.duree_estimee,
+        i1_0.nom 
+    from
+        itineraires i1_0 
+    where
+        i1_0.utilisateur_id=?
+Hibernate: 
+    select
+        i1_0.utilisateur_id,
+        i1_0.id,
+        i1_0.date_creation,
+        i1_0.duree_estimee,
+        i1_0.nom 
+    from
+        itineraires i1_0 
+    where
+        i1_0.utilisateur_id=?
+2026-01-15T01:25:06.572+01:00 DEBUG 20576 --- [Safar_Morocco] [  restartedMain] org.hibernate.SQL                        : 
+    /* delete 
+    for
+        ma.safar.morocco.user.entity.Utilisateur */delete 
+    from
+        utilisateurs 
+    where
+        id=?
+Hibernate: 
+    /* delete 
+    for
+        ma.safar.morocco.user.entity.Utilisateur */delete 
+    from
+        utilisateurs 
+    where
+        id=?
+2026-01-15T01:25:06.590+01:00  INFO 20576 --- [Safar_Morocco] [  restartedMain] m.safar.morocco.config.DataInitializer   : Existing default user deleted for recreation: user@safar-morocco.com
+2026-01-15T01:25:06.776+01:00 DEBUG 20576 --- [Safar_Morocco] [  restartedMain] org.hibernate.SQL                        : 
+    /* insert 
+    for
+        ma.safar.morocco.user.entity.Utilisateur
+        */insert 
+    into
+        utilisateurs (actif, compte_bloquer, date_inscription, date_modification, description, email, langue, mot_de_passe_hache, nom, photo_url, preferences, provider, provider_id, role, telephone) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+Hibernate: 
+    /* insert 
+    for
+        ma.safar.morocco.user.entity.Utilisateur
+        */insert 
+    into
+        utilisateurs (actif, compte_bloquer, date_inscription, date_modification, description, email, langue, mot_de_passe_hache, nom, photo_url, preferences, provider, provider_id, role, telephone) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2026-01-15T01:25:06.859+01:00  INFO 20576 --- [Safar_Morocco] [  restartedMain] m.safar.morocco.config.DataInitializer   : Default user created successfully: user@safar-morocco.com
+2026-01-15T01:25:06.859+01:00  INFO 20576 --- [Safar_Morocco] [  restartedMain] m.safar.morocco.config.DataInitializer   : Data initialization completed successfully
+2026-01-15T01:25:06.861+01:00  INFO 20576 --- [Safar_Morocco] [  restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged

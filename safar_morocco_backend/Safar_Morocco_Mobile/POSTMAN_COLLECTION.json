@@ -1,0 +1,184 @@
+{
+  "info": {
+    "name": "Safar Morocco Backend",
+    "description": "Complete test collection for Safar Morocco API with 72 endpoints",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Auth",
+      "description": "Authentication endpoints (7 tests)",
+      "item": [
+        {
+          "name": "1.1 Register",
+          "request": {
+            "method": "POST",
+            "header": [
+              {"key": "Content-Type", "value": "application/json"}
+            ],
+            "url": {
+              "raw": "{{baseUrl}}/api/auth/register",
+              "host": ["{{baseUrl}}"],
+              "path": ["api", "auth", "register"]
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\"email\": \"test{{$timestamp}}@safar.com\", \"nom\": \"Test User\", \"motDePasse\": \"Password123!\", \"confirmMotDePasse\": \"Password123!\"}"
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "1.3 Login",
+          "request": {
+            "method": "POST",
+            "header": [
+              {"key": "Content-Type", "value": "application/json"}
+            ],
+            "url": {
+              "raw": "{{baseUrl}}/api/auth/login",
+              "host": ["{{baseUrl}}"],
+              "path": ["api", "auth", "login"]
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\"email\": \"admin@safar-morocco.com\", \"motDePasse\": \"Admin@12345\"}"
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "1.5 Refresh Token",
+          "request": {
+            "method": "POST",
+            "header": [
+              {"key": "Content-Type", "value": "application/json"}
+            ],
+            "url": {
+              "raw": "{{baseUrl}}/api/auth/refresh",
+              "host": ["{{baseUrl}}"],
+              "path": ["api", "auth", "refresh"]
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\"refreshToken\": \"{{refreshToken}}\"}"
+            }
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "Destinations",
+      "description": "Destination management (6 tests)",
+      "item": [
+        {
+          "name": "3.1 Create Destination",
+          "request": {
+            "method": "POST",
+            "header": [
+              {"key": "Content-Type", "value": "application/json"},
+              {"key": "Authorization", "value": "Bearer {{userToken}}"}
+            ],
+            "url": {
+              "raw": "{{baseUrl}}/api/destinations",
+              "host": ["{{baseUrl}}"],
+              "path": ["api", "destinations"]
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\"nom\": \"Marrakech\", \"description\": \"Ville rouge du Maroc\", \"histoire\": \"Fondée en 1062\", \"latitude\": 31.6295, \"longitude\": -8.0088, \"type\": \"Ville\", \"categorie\": \"CULTURELLE\"}"
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "3.2 List All Destinations",
+          "request": {
+            "method": "GET",
+            "header": [
+              {"key": "Authorization", "value": "Bearer {{userToken}}"}
+            ],
+            "url": {
+              "raw": "{{baseUrl}}/api/destinations",
+              "host": ["{{baseUrl}}"],
+              "path": ["api", "destinations"]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "3.3 Get Destination by ID",
+          "request": {
+            "method": "GET",
+            "header": [
+              {"key": "Authorization", "value": "Bearer {{userToken}}"}
+            ],
+            "url": {
+              "raw": "{{baseUrl}}/api/destinations/{{destinationId}}",
+              "host": ["{{baseUrl}}"],
+              "path": ["api", "destinations", "{{destinationId}}"]
+            }
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "User",
+      "description": "User profile and management",
+      "item": [
+        {
+          "name": "7.1 Get Profile",
+          "request": {
+            "method": "GET",
+            "header": [
+              {"key": "Authorization", "value": "Bearer {{userToken}}"}
+            ],
+            "url": {
+              "raw": "{{baseUrl}}/api/utilisateurs/profile",
+              "host": ["{{baseUrl}}"],
+              "path": ["api", "utilisateurs", "profile"]
+            }
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "Health Check",
+      "item": [
+        {
+          "name": "Actuator Health",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{baseUrl}}/actuator/health",
+              "host": ["{{baseUrl}}"],
+              "path": ["actuator", "health"]
+            }
+          },
+          "response": []
+        }
+      ]
+    }
+  ],
+  "variable": [
+    {
+      "key": "baseUrl",
+      "value": "http://localhost:9004"
+    },
+    {
+      "key": "userToken",
+      "value": ""
+    },
+    {
+      "key": "refreshToken",
+      "value": ""
+    },
+    {
+      "key": "destinationId",
+      "value": ""
+    }
+  ]
+}
