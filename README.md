@@ -66,13 +66,13 @@ Pour tester rapidement l'application, utilisez ces comptes :
 
 ####  **Utilisateur Standard**
 - **Email** : `user@safar.com`
-- **Mot de passe** : `SecureSafarMrc2026!Usr!`
+- **Mot de passe** : `SecureSafarMrc2026!Usr`
 - **Rôle** : USER
 - **Accès** : Consultation des destinations, écriture d'avis, chatbot
 
 #### 👨 **Administrateur**
 - **Email** : `admin@safar.com`
-- **Mot de passe** : `SecureSafarMrc2026!Adm!`
+- **Mot de passe** : `SecureSafarMrc2026!Adm`
 - **Rôle** : ADMIN
 - **Accès** : Toutes les fonctionnalités + dashboard admin, gestion utilisateurs
 
