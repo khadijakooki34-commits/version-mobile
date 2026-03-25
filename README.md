@@ -70,7 +70,7 @@ Pour tester rapidement l'application, utilisez ces comptes :
 - **Rôle** : USER
 - **Accès** : Consultation des destinations, écriture d'avis, chatbot
 
-#### 👨 **Administrateur**
+####  **Administrateur**
 - **Email** : `admin@safar.com`
 - **Mot de passe** : `SecureSafarMrc2026!Adm`
 - **Rôle** : ADMIN
